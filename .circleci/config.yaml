@@ -1,0 +1,56 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.7.0
+
+commands:
+  git_user_ci:
+    steps:
+      - run:
+          name: Git Config
+          command: |
+            git config --global user.email "doug.hamil@gmail.com"
+            git config --global user.name "CircleCI Release Script"
+
+jobs:
+  build:
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages
+      - run:
+          name: Compile CLJS
+          command: npx shadow-cljs compile app
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - public
+  publish:
+    executor: node/default
+    steps:
+      - checkout
+      - git_user_ci
+      - run: git checkout gh-pages
+      - run: rm -rf ./*
+      - attach_workspace:
+          at: /tmp/workspace
+      - run: cp -r ./tmp/workspace/public/* ./
+      - run: git add ./
+      - run: git commit -m "[skip ci] publish"
+      - run: git push
+
+workflows:
+  build-and-publish:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - "main"
+      - publish:
+          filters:
+            branches:
+              only:
+                - "main"
+          requires:
+            - build
