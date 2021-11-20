@@ -7,6 +7,8 @@ This project is for:
 * Serving as a reference for advanced Threeeagent usage
 * Exploring game development in ClojureScript
 
+[Play the latest version!](https://doughamil.github.io/zombie-threeagent-example/)
+
 ## Development
 
 To hack on this project, you'll need [shadow-cljs](https://github.com/thheller/shadow-cljs) installed.
