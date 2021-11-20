@@ -1,9 +1,9 @@
 ;; shadow-cljs configuration
 {:source-paths
- ["src/cljs"]
+ ["src"]
 
  :dependencies
- [[doughamil/threeagent "1.0.0-SNAPSHOT"]
+ [[doughamil/threeagent "1.0.1"]
   [cljs-http "0.1.45"]
   [cider/cider-nrepl "0.26.0"]
   [clj-statecharts "0.1.0"]]
