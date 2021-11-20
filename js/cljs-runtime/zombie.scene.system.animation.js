@@ -1,18 +1,18 @@
 goog.provide('zombie.scene.system.animation');
 var module$node_modules$three$build$three_module=shadow.js.require("module$node_modules$three$build$three_module", {});
-zombie.scene.system.animation.set_animation_BANG_ = (function zombie$scene$system$animation$set_animation_BANG_(local_state,entity_id,p__12911){
-var map__12912 = p__12911;
-var map__12912__$1 = cljs.core.__destructure_map(map__12912);
-var animation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"animation","animation",-1248293244));
-var loop_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"loop?","loop?",457687798));
-var layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"layer","layer",-1601820589));
-var weight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"weight","weight",-1262796205));
-var clamp_when_finished_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"clamp-when-finished?","clamp-when-finished?",1915888022));
-var sync_layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12912__$1,new cljs.core.Keyword(null,"sync-layer","sync-layer",1468602624));
+zombie.scene.system.animation.set_animation_BANG_ = (function zombie$scene$system$animation$set_animation_BANG_(local_state,entity_id,p__12919){
+var map__12920 = p__12919;
+var map__12920__$1 = cljs.core.__destructure_map(map__12920);
+var animation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"animation","animation",-1248293244));
+var loop_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"loop?","loop?",457687798));
+var layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"layer","layer",-1601820589));
+var weight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"weight","weight",-1262796205));
+var clamp_when_finished_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"clamp-when-finished?","clamp-when-finished?",1915888022));
+var sync_layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12920__$1,new cljs.core.Keyword(null,"sync-layer","sync-layer",1468602624));
 var loop = (cljs.core.truth_(loop_QMARK_)?module$node_modules$three$build$three_module.LoopRepeat:module$node_modules$three$build$three_module.LoopOnce);
-var map__12913 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id], null));
-var map__12913__$1 = cljs.core.__destructure_map(map__12913);
-var mixer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12913__$1,new cljs.core.Keyword(null,"mixer","mixer",-120313315));
+var map__12923 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id], null));
+var map__12923__$1 = cljs.core.__destructure_map(map__12923);
+var mixer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12923__$1,new cljs.core.Keyword(null,"mixer","mixer",-120313315));
 var clip = cljs.core.first(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(zombie.state.databases.assets),animation));
 var old_action = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"layers","layers",1944875032),layer], null));
 var sync_action = (cljs.core.truth_(sync_layer)?cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"layers","layers",1944875032),sync_layer], null)):null);
@@ -61,10 +61,10 @@ action.syncWith(sync_action);
 
 return action.play();
 });
-zombie.scene.system.animation.stop_animation_BANG_ = (function zombie$scene$system$animation$stop_animation_BANG_(local_state,entity_id,p__12920){
-var map__12921 = p__12920;
-var map__12921__$1 = cljs.core.__destructure_map(map__12921);
-var animation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12921__$1,new cljs.core.Keyword(null,"animation","animation",-1248293244));
+zombie.scene.system.animation.stop_animation_BANG_ = (function zombie$scene$system$animation$stop_animation_BANG_(local_state,entity_id,p__12927){
+var map__12928 = p__12927;
+var map__12928__$1 = cljs.core.__destructure_map(map__12928);
+var animation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12928__$1,new cljs.core.Keyword(null,"animation","animation",-1248293244));
 var clip = cljs.core.first(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(zombie.state.databases.assets),animation));
 var mixer = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"mixer","mixer",-120313315)], null));
 var action = mixer.clipAction(clip);
@@ -84,11 +84,11 @@ zombie.scene.system.animation.stop_all_animation_BANG_ = (function zombie$scene$
 var mixer = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"mixer","mixer",-120313315)], null));
 return mixer.stopAllAction();
 });
-zombie.scene.system.animation.set_look_at_BANG_ = (function zombie$scene$system$animation$set_look_at_BANG_(obj,p__12922){
-var vec__12923 = p__12922;
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12923,(0),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12923,(1),null);
-var z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12923,(2),null);
+zombie.scene.system.animation.set_look_at_BANG_ = (function zombie$scene$system$animation$set_look_at_BANG_(obj,p__12929){
+var vec__12930 = p__12929;
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12930,(0),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12930,(1),null);
+var z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12930,(2),null);
 if(cljs.core.truth_((function (){var and__4210__auto__ = x;
 if(cljs.core.truth_(and__4210__auto__)){
 return z;
@@ -101,14 +101,14 @@ return obj.lookAt(x,y,z);
 return null;
 }
 });
-zombie.scene.system.animation.tick_entity_BANG_ = (function zombie$scene$system$animation$tick_entity_BANG_(delta_time,_entity_id,p__12928){
-var map__12929 = p__12928;
-var map__12929__$1 = cljs.core.__destructure_map(map__12929);
-var mixer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12929__$1,new cljs.core.Keyword(null,"mixer","mixer",-120313315));
-var lower_look_at_target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12929__$1,new cljs.core.Keyword(null,"lower-look-at-target","lower-look-at-target",1866511835));
-var upper_look_at_target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12929__$1,new cljs.core.Keyword(null,"upper-look-at-target","upper-look-at-target",242071727));
-var lower_bone = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12929__$1,new cljs.core.Keyword(null,"lower-bone","lower-bone",1574029637));
-var upper_bone = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12929__$1,new cljs.core.Keyword(null,"upper-bone","upper-bone",-697343399));
+zombie.scene.system.animation.tick_entity_BANG_ = (function zombie$scene$system$animation$tick_entity_BANG_(delta_time,_entity_id,p__12933){
+var map__12934 = p__12933;
+var map__12934__$1 = cljs.core.__destructure_map(map__12934);
+var mixer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12934__$1,new cljs.core.Keyword(null,"mixer","mixer",-120313315));
+var lower_look_at_target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12934__$1,new cljs.core.Keyword(null,"lower-look-at-target","lower-look-at-target",1866511835));
+var upper_look_at_target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12934__$1,new cljs.core.Keyword(null,"upper-look-at-target","upper-look-at-target",242071727));
+var lower_bone = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12934__$1,new cljs.core.Keyword(null,"lower-bone","lower-bone",1574029637));
+var upper_bone = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12934__$1,new cljs.core.Keyword(null,"upper-bone","upper-bone",-697343399));
 mixer.update(delta_time);
 
 if(cljs.core.truth_(lower_look_at_target)){
@@ -123,12 +123,12 @@ return null;
 }
 });
 zombie.scene.system.animation.register_handlers_BANG_ = (function zombie$scene$system$animation$register_handlers_BANG_(local_state,event_bus,entity_id){
-zombie.util.messaging.on(event_bus,entity_id,new cljs.core.Keyword("animation","set-upper-look-at-target","animation/set-upper-look-at-target",-884500220),(function (p1__12930_SHARP_){
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"upper-look-at-target","upper-look-at-target",242071727)], null),p1__12930_SHARP_);
+zombie.util.messaging.on(event_bus,entity_id,new cljs.core.Keyword("animation","set-upper-look-at-target","animation/set-upper-look-at-target",-884500220),(function (p1__12938_SHARP_){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"upper-look-at-target","upper-look-at-target",242071727)], null),p1__12938_SHARP_);
 }));
 
-zombie.util.messaging.on(event_bus,entity_id,new cljs.core.Keyword("animation","set-lower-look-at-target","animation/set-lower-look-at-target",-800600326),(function (p1__12931_SHARP_){
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"lower-look-at-target","lower-look-at-target",1866511835)], null),p1__12931_SHARP_);
+zombie.util.messaging.on(event_bus,entity_id,new cljs.core.Keyword("animation","set-lower-look-at-target","animation/set-lower-look-at-target",-800600326),(function (p1__12939_SHARP_){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [entity_id,new cljs.core.Keyword(null,"lower-look-at-target","lower-look-at-target",1866511835)], null),p1__12939_SHARP_);
 }));
 
 zombie.util.messaging.on(event_bus,entity_id,new cljs.core.Keyword("animation","stop-all","animation/stop-all",-1604963053),cljs.core.partial.cljs$core$IFn$_invoke$arity$3(zombie.scene.system.animation.stop_all_animation_BANG_,local_state,entity_id));
@@ -148,10 +148,10 @@ this.local_state = local_state;
 });
 (zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$ = cljs.core.PROTOCOL_SENTINEL);
 
-(zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__12936){
+(zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__12940){
 var self__ = this;
-var map__12937 = p__12936;
-var map__12937__$1 = cljs.core.__destructure_map(map__12937);
+var map__12941 = p__12940;
+var map__12941__$1 = cljs.core.__destructure_map(map__12941);
 var ___$1 = this;
 return null;
 }));
@@ -162,12 +162,12 @@ var ___$2 = this;
 return null;
 }));
 
-(zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,key,obj,p__12939){
+(zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,key,obj,p__12944){
 var self__ = this;
-var map__12940 = p__12939;
-var map__12940__$1 = cljs.core.__destructure_map(map__12940);
-var cfg = map__12940__$1;
-var clip = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12940__$1,new cljs.core.Keyword(null,"clip","clip",830998499));
+var map__12945 = p__12944;
+var map__12945__$1 = cljs.core.__destructure_map(map__12945);
+var cfg = map__12945__$1;
+var clip = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12945__$1,new cljs.core.Keyword(null,"clip","clip",830998499));
 var ___$2 = this;
 var model = (obj.children[(0)]);
 var mixer = (new module$node_modules$three$build$three_module.AnimationMixer(model));
@@ -192,57 +192,57 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(self__.local_state,clj
 (zombie.scene.system.animation.AnimationSystem.prototype.threeagent$system$ISystem$tick$arity$2 = (function (_,delta_time){
 var self__ = this;
 var ___$1 = this;
-var seq__12941 = cljs.core.seq(cljs.core.deref(self__.local_state));
-var chunk__12942 = null;
-var count__12943 = (0);
-var i__12944 = (0);
+var seq__12950 = cljs.core.seq(cljs.core.deref(self__.local_state));
+var chunk__12951 = null;
+var count__12952 = (0);
+var i__12953 = (0);
 while(true){
-if((i__12944 < count__12943)){
-var vec__12951 = chunk__12942.cljs$core$IIndexed$_nth$arity$2(null,i__12944);
-var entity_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12951,(0),null);
-var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12951,(1),null);
+if((i__12953 < count__12952)){
+var vec__12960 = chunk__12951.cljs$core$IIndexed$_nth$arity$2(null,i__12953);
+var entity_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12960,(0),null);
+var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12960,(1),null);
 zombie.scene.system.animation.tick_entity_BANG_(delta_time,entity_id,data);
 
 
-var G__12972 = seq__12941;
-var G__12973 = chunk__12942;
-var G__12974 = count__12943;
-var G__12975 = (i__12944 + (1));
-seq__12941 = G__12972;
-chunk__12942 = G__12973;
-count__12943 = G__12974;
-i__12944 = G__12975;
+var G__12966 = seq__12950;
+var G__12967 = chunk__12951;
+var G__12968 = count__12952;
+var G__12969 = (i__12953 + (1));
+seq__12950 = G__12966;
+chunk__12951 = G__12967;
+count__12952 = G__12968;
+i__12953 = G__12969;
 continue;
 } else {
-var temp__5753__auto__ = cljs.core.seq(seq__12941);
+var temp__5753__auto__ = cljs.core.seq(seq__12950);
 if(temp__5753__auto__){
-var seq__12941__$1 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__12941__$1)){
-var c__4638__auto__ = cljs.core.chunk_first(seq__12941__$1);
-var G__12976 = cljs.core.chunk_rest(seq__12941__$1);
-var G__12977 = c__4638__auto__;
-var G__12978 = cljs.core.count(c__4638__auto__);
-var G__12979 = (0);
-seq__12941 = G__12976;
-chunk__12942 = G__12977;
-count__12943 = G__12978;
-i__12944 = G__12979;
+var seq__12950__$1 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__12950__$1)){
+var c__4638__auto__ = cljs.core.chunk_first(seq__12950__$1);
+var G__12970 = cljs.core.chunk_rest(seq__12950__$1);
+var G__12971 = c__4638__auto__;
+var G__12972 = cljs.core.count(c__4638__auto__);
+var G__12973 = (0);
+seq__12950 = G__12970;
+chunk__12951 = G__12971;
+count__12952 = G__12972;
+i__12953 = G__12973;
 continue;
 } else {
-var vec__12957 = cljs.core.first(seq__12941__$1);
-var entity_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12957,(0),null);
-var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12957,(1),null);
+var vec__12963 = cljs.core.first(seq__12950__$1);
+var entity_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12963,(0),null);
+var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__12963,(1),null);
 zombie.scene.system.animation.tick_entity_BANG_(delta_time,entity_id,data);
 
 
-var G__12980 = cljs.core.next(seq__12941__$1);
-var G__12981 = null;
-var G__12982 = (0);
-var G__12983 = (0);
-seq__12941 = G__12980;
-chunk__12942 = G__12981;
-count__12943 = G__12982;
-i__12944 = G__12983;
+var G__12974 = cljs.core.next(seq__12950__$1);
+var G__12975 = null;
+var G__12976 = (0);
+var G__12977 = (0);
+seq__12950 = G__12974;
+chunk__12951 = G__12975;
+count__12952 = G__12976;
+i__12953 = G__12977;
 continue;
 }
 } else {

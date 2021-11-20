@@ -17,9 +17,9 @@ return null;
 })()], null);
 });
 zombie.scene.view.game.camera = (function zombie$scene$view$game$camera(){
-var aspect = cljs.core.deref((function (){var G__10741 = zombie.state.databases.scene;
-var G__10742 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"screen-aspect-ratio","screen-aspect-ratio",-1045134019)], null);
-return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10741,G__10742) : threeagent.core.cursor.call(null,G__10741,G__10742));
+var aspect = cljs.core.deref((function (){var G__10743 = zombie.state.databases.scene;
+var G__10744 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"screen-aspect-ratio","screen-aspect-ratio",-1045134019)], null);
+return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10743,G__10744) : threeagent.core.cursor.call(null,G__10743,G__10744));
 })());
 var light_target = (new module$node_modules$three$build$three_module.Object3D());
 var height = (10);
@@ -39,16 +39,16 @@ zombie.scene.view.game.axes = (function zombie$scene$view$game$axes(){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.view.game.axis_pole,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(- zombie.util.math.pi2)], null),"red"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.view.game.axis_pole,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(0)], null),"green"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.view.game.axis_pole,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.util.math.pi2,(0),(0)], null),"blue"], null)], null)], null);
 });
 zombie.scene.view.game.icons = (function zombie$scene$view$game$icons(){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var temp__5753__auto__ = cljs.core.deref((function (){var G__10743 = zombie.state.databases.input;
-var G__10744 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"mouse","mouse",478628972),new cljs.core.Keyword(null,"world-position","world-position",-486434797)], null);
-return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10743,G__10744) : threeagent.core.cursor.call(null,G__10743,G__10744));
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var temp__5753__auto__ = cljs.core.deref((function (){var G__10751 = zombie.state.databases.input;
+var G__10752 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"mouse","mouse",478628972),new cljs.core.Keyword(null,"world-position","world-position",-486434797)], null);
+return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10751,G__10752) : threeagent.core.cursor.call(null,G__10751,G__10752));
 })());
 if(cljs.core.truth_(temp__5753__auto__)){
-var map__10747 = temp__5753__auto__;
-var map__10747__$1 = cljs.core.__destructure_map(map__10747);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10747__$1,new cljs.core.Keyword(null,"x","x",2099068185));
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10747__$1,new cljs.core.Keyword(null,"y","y",-1757859776));
-var z = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10747__$1,new cljs.core.Keyword(null,"z","z",-789527183));
+var map__10753 = temp__5753__auto__;
+var map__10753__$1 = cljs.core.__destructure_map(map__10753);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10753__$1,new cljs.core.Keyword(null,"x","x",2099068185));
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10753__$1,new cljs.core.Keyword(null,"y","y",-1757859776));
+var z = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10753__$1,new cljs.core.Keyword(null,"z","z",-789527183));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y,z], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.view.game.cross,"blue"], null)], null);
 } else {
 return null;
@@ -57,27 +57,27 @@ return null;
 });
 zombie.scene.view.game.entities = (function zombie$scene$view$game$entities(){
 var entities = cljs.core.deref(zombie.state.databases.entities);
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$view$game$entities_$_iter__10750(s__10751){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$view$game$entities_$_iter__10754(s__10755){
 return (new cljs.core.LazySeq(null,(function (){
-var s__10751__$1 = s__10751;
+var s__10755__$1 = s__10755;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__10751__$1);
+var temp__5753__auto__ = cljs.core.seq(s__10755__$1);
 if(temp__5753__auto__){
-var s__10751__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__10751__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__10751__$2);
+var s__10755__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__10755__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__10755__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__10755 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__10754 = (0);
+var b__10757 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__10756 = (0);
 while(true){
-if((i__10754 < size__4610__auto__)){
-var vec__10758 = cljs.core._nth(c__4609__auto__,i__10754);
+if((i__10756 < size__4610__auto__)){
+var vec__10758 = cljs.core._nth(c__4609__auto__,i__10756);
 var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10758,(0),null);
 var map__10761 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10758,(1),null);
 var map__10761__$1 = cljs.core.__destructure_map(map__10761);
 var cfg = map__10761__$1;
 var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10761__$1,new cljs.core.Keyword(null,"type","type",1174270348));
-cljs.core.chunk_append(b__10755,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var G__10762 = type;
+cljs.core.chunk_append(b__10757,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var G__10762 = type;
 var G__10762__$1 = (((G__10762 instanceof cljs.core.Keyword))?G__10762.fqn:null);
 switch (G__10762__$1) {
 case "player":
@@ -90,8 +90,8 @@ throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$ari
 }
 })()], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__10769 = (i__10754 + (1));
-i__10754 = G__10769;
+var G__10771 = (i__10756 + (1));
+i__10756 = G__10771;
 continue;
 } else {
 return true;
@@ -99,12 +99,12 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__10755),zombie$scene$view$game$entities_$_iter__10750(cljs.core.chunk_rest(s__10751__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__10757),zombie$scene$view$game$entities_$_iter__10754(cljs.core.chunk_rest(s__10755__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__10755),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__10757),null);
 }
 } else {
-var vec__10763 = cljs.core.first(s__10751__$2);
+var vec__10763 = cljs.core.first(s__10755__$2);
 var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10763,(0),null);
 var map__10766 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10763,(1),null);
 var map__10766__$1 = cljs.core.__destructure_map(map__10766);
@@ -121,7 +121,7 @@ default:
 throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__10767__$1)].join('')));
 
 }
-})()], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),zombie$scene$view$game$entities_$_iter__10750(cljs.core.rest(s__10751__$2)));
+})()], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),zombie$scene$view$game$entities_$_iter__10754(cljs.core.rest(s__10755__$2)));
 }
 } else {
 return null;

@@ -26,12 +26,12 @@ this.local_state = local_state;
 });
 (zombie.scene.system.canvas.CanvasSystem.prototype.threeagent$system$ISystem$ = cljs.core.PROTOCOL_SENTINEL);
 
-(zombie.scene.system.canvas.CanvasSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__10988){
+(zombie.scene.system.canvas.CanvasSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__10983){
 var self__ = this;
-var map__10989 = p__10988;
-var map__10989__$1 = cljs.core.__destructure_map(map__10989);
-var canvas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10989__$1,new cljs.core.Keyword(null,"canvas","canvas",-1798817489));
-var threejs_renderer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10989__$1,new cljs.core.Keyword(null,"threejs-renderer","threejs-renderer",468746733));
+var map__10984 = p__10983;
+var map__10984__$1 = cljs.core.__destructure_map(map__10984);
+var canvas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10984__$1,new cljs.core.Keyword(null,"canvas","canvas",-1798817489));
+var threejs_renderer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10984__$1,new cljs.core.Keyword(null,"threejs-renderer","threejs-renderer",468746733));
 var ___$1 = this;
 var listener_fn = cljs.core.partial.cljs$core$IFn$_invoke$arity$3(zombie.scene.system.canvas.resize_canvas_BANG_,canvas,threejs_renderer);
 window.addEventListener("resize",listener_fn);

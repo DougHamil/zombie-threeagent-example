@@ -239,14 +239,14 @@ zombie.util.timer.maybe_tick(ai_ticker,delta_time);
 zombie.scene.system.zombie.tick_zombie.cljs$core$IFn$_invoke$arity$2(statecharts.core.value(fsm),statecharts.core.state(fsm));
 
 
-var G__13369 = seq__13336;
-var G__13370 = chunk__13337;
-var G__13371 = count__13338;
-var G__13372 = (i__13339 + (1));
-seq__13336 = G__13369;
-chunk__13337 = G__13370;
-count__13338 = G__13371;
-i__13339 = G__13372;
+var G__13370 = seq__13336;
+var G__13371 = chunk__13337;
+var G__13372 = count__13338;
+var G__13373 = (i__13339 + (1));
+seq__13336 = G__13370;
+chunk__13337 = G__13371;
+count__13338 = G__13372;
+i__13339 = G__13373;
 continue;
 } else {
 var temp__5753__auto__ = cljs.core.seq(seq__13336);
@@ -254,35 +254,35 @@ if(temp__5753__auto__){
 var seq__13336__$1 = temp__5753__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__13336__$1)){
 var c__4638__auto__ = cljs.core.chunk_first(seq__13336__$1);
-var G__13373 = cljs.core.chunk_rest(seq__13336__$1);
-var G__13374 = c__4638__auto__;
-var G__13375 = cljs.core.count(c__4638__auto__);
-var G__13376 = (0);
-seq__13336 = G__13373;
-chunk__13337 = G__13374;
-count__13338 = G__13375;
-i__13339 = G__13376;
+var G__13374 = cljs.core.chunk_rest(seq__13336__$1);
+var G__13375 = c__4638__auto__;
+var G__13376 = cljs.core.count(c__4638__auto__);
+var G__13377 = (0);
+seq__13336 = G__13374;
+chunk__13337 = G__13375;
+count__13338 = G__13376;
+i__13339 = G__13377;
 continue;
 } else {
-var vec__13352 = cljs.core.first(seq__13336__$1);
-var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13352,(0),null);
-var map__13355 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13352,(1),null);
-var map__13355__$1 = cljs.core.__destructure_map(map__13355);
-var ai_ticker = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13355__$1,new cljs.core.Keyword(null,"ai-ticker","ai-ticker",1270692061));
-var fsm = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13355__$1,new cljs.core.Keyword(null,"fsm","fsm",937922990));
+var vec__13353 = cljs.core.first(seq__13336__$1);
+var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13353,(0),null);
+var map__13356 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13353,(1),null);
+var map__13356__$1 = cljs.core.__destructure_map(map__13356);
+var ai_ticker = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13356__$1,new cljs.core.Keyword(null,"ai-ticker","ai-ticker",1270692061));
+var fsm = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13356__$1,new cljs.core.Keyword(null,"fsm","fsm",937922990));
 zombie.util.timer.maybe_tick(ai_ticker,delta_time);
 
 zombie.scene.system.zombie.tick_zombie.cljs$core$IFn$_invoke$arity$2(statecharts.core.value(fsm),statecharts.core.state(fsm));
 
 
-var G__13377 = cljs.core.next(seq__13336__$1);
-var G__13378 = null;
-var G__13379 = (0);
+var G__13378 = cljs.core.next(seq__13336__$1);
+var G__13379 = null;
 var G__13380 = (0);
-seq__13336 = G__13377;
-chunk__13337 = G__13378;
-count__13338 = G__13379;
-i__13339 = G__13380;
+var G__13381 = (0);
+seq__13336 = G__13378;
+chunk__13337 = G__13379;
+count__13338 = G__13380;
+i__13339 = G__13381;
 continue;
 }
 } else {

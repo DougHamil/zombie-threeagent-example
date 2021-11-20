@@ -12,10 +12,10 @@ return zombie.assets.texture.three_texture_loader.load(path,(function (t){
 
 (t.anisotropy = (4));
 
-var temp__5753__auto___10516 = new cljs.core.Keyword(null,"repeat","repeat",832692087).cljs$core$IFn$_invoke$arity$1(cfg);
-if(cljs.core.truth_(temp__5753__auto___10516)){
-var rpt_10517 = temp__5753__auto___10516;
-(t.repeat = cljs.core.clj__GT_js(rpt_10517));
+var temp__5753__auto___10513 = new cljs.core.Keyword(null,"repeat","repeat",832692087).cljs$core$IFn$_invoke$arity$1(cfg);
+if(cljs.core.truth_(temp__5753__auto___10513)){
+var rpt_10514 = temp__5753__auto___10513;
+(t.repeat = cljs.core.clj__GT_js(rpt_10514));
 } else {
 }
 

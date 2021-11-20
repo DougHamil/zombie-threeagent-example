@@ -31,26 +31,26 @@ return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.ato
 }
 if((typeof zombie !== 'undefined') && (typeof zombie.state !== 'undefined') && (typeof zombie.state.databases !== 'undefined') && (typeof zombie.state.databases.rays !== 'undefined')){
 } else {
-zombie.state.databases.rays = (function (){var G__10451 = cljs.core.PersistentArrayMap.EMPTY;
-return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10451) : threeagent.core.atom.call(null,G__10451));
+zombie.state.databases.rays = (function (){var G__10447 = cljs.core.PersistentArrayMap.EMPTY;
+return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10447) : threeagent.core.atom.call(null,G__10447));
 })();
 }
 if((typeof zombie !== 'undefined') && (typeof zombie.state !== 'undefined') && (typeof zombie.state.databases !== 'undefined') && (typeof zombie.state.databases.input !== 'undefined')){
 } else {
-zombie.state.databases.input = (function (){var G__10452 = cljs.core.PersistentArrayMap.EMPTY;
-return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10452) : threeagent.core.atom.call(null,G__10452));
+zombie.state.databases.input = (function (){var G__10448 = cljs.core.PersistentArrayMap.EMPTY;
+return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10448) : threeagent.core.atom.call(null,G__10448));
 })();
 }
 if((typeof zombie !== 'undefined') && (typeof zombie.state !== 'undefined') && (typeof zombie.state.databases !== 'undefined') && (typeof zombie.state.databases.player !== 'undefined')){
 } else {
-zombie.state.databases.player = (function (){var G__10453 = cljs.core.PersistentArrayMap.EMPTY;
-return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10453) : threeagent.core.atom.call(null,G__10453));
+zombie.state.databases.player = (function (){var G__10449 = cljs.core.PersistentArrayMap.EMPTY;
+return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10449) : threeagent.core.atom.call(null,G__10449));
 })();
 }
 if((typeof zombie !== 'undefined') && (typeof zombie.state !== 'undefined') && (typeof zombie.state.databases !== 'undefined') && (typeof zombie.state.databases.entities !== 'undefined')){
 } else {
-zombie.state.databases.entities = (function (){var G__10454 = new cljs.core.PersistentArrayMap(null, 1, ["player",new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"initial-health","initial-health",-207286926),(100),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"player","player",-97687400),new cljs.core.Keyword(null,"initial-position","initial-position",1055724056),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(0)], null)], null)], null);
-return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10454) : threeagent.core.atom.call(null,G__10454));
+zombie.state.databases.entities = (function (){var G__10450 = new cljs.core.PersistentArrayMap(null, 1, ["player",new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"initial-health","initial-health",-207286926),(100),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"player","player",-97687400),new cljs.core.Keyword(null,"initial-position","initial-position",1055724056),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(0)], null)], null)], null);
+return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10450) : threeagent.core.atom.call(null,G__10450));
 })();
 }
 if((typeof zombie !== 'undefined') && (typeof zombie.state !== 'undefined') && (typeof zombie.state.databases !== 'undefined') && (typeof zombie.state.databases.model_colliders !== 'undefined')){

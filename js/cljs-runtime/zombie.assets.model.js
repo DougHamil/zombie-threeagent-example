@@ -90,14 +90,14 @@ return (20);
 })(),G__10499__$5);
 
 });
-zombie.assets.model.skin_middleware = (function zombie$assets$model$skin_middleware(_key,obj,p__10505){
-var map__10506 = p__10505;
-var map__10506__$1 = cljs.core.__destructure_map(map__10506);
-var shininess = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"shininess","shininess",-509323286));
-var skin = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"skin","skin",2146317821));
-var skin_emissive = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"skin-emissive","skin-emissive",820216539));
-var emissive = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"emissive","emissive",-761267227));
-var material = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"material","material",460118677));
+zombie.assets.model.skin_middleware = (function zombie$assets$model$skin_middleware(_key,obj,p__10503){
+var map__10504 = p__10503;
+var map__10504__$1 = cljs.core.__destructure_map(map__10504);
+var shininess = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"shininess","shininess",-509323286));
+var skin = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"skin","skin",2146317821));
+var skin_emissive = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"skin-emissive","skin-emissive",820216539));
+var emissive = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"emissive","emissive",-761267227));
+var material = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"material","material",460118677));
 var mesh = (obj.children[(0)]);
 var mat = mesh.material;
 if(cljs.core.truth_(material)){

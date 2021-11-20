@@ -50,13 +50,13 @@ var ___$2 = this;
 return null;
 }));
 
-(zombie.scene.system.follow.FollowSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,_id,obj,p__13083){
+(zombie.scene.system.follow.FollowSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,_id,obj,p__13084){
 var self__ = this;
-var map__13084 = p__13083;
-var map__13084__$1 = cljs.core.__destructure_map(map__13084);
-var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13084__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
-var position_offset = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13084__$1,new cljs.core.Keyword(null,"position-offset","position-offset",1257061411));
-var look_at_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13084__$1,new cljs.core.Keyword(null,"look-at?","look-at?",-347394510));
+var map__13085 = p__13084;
+var map__13085__$1 = cljs.core.__destructure_map(map__13085);
+var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13085__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
+var position_offset = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13085__$1,new cljs.core.Keyword(null,"position-offset","position-offset",1257061411));
+var look_at_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13085__$1,new cljs.core.Keyword(null,"look-at?","look-at?",-347394510));
 var ___$2 = this;
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(self__.local_state,cljs.core.assoc,obj,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"entity-id","entity-id",1485898093),entity_id,new cljs.core.Keyword(null,"look-at?","look-at?",-347394510),look_at_QMARK_,new cljs.core.Keyword(null,"position-offset","position-offset",1257061411),(function (){var or__4212__auto__ = position_offset;
 if(cljs.core.truth_(or__4212__auto__)){
@@ -76,57 +76,57 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(self__.local_state,clj
 (zombie.scene.system.follow.FollowSystem.prototype.threeagent$system$ISystem$tick$arity$2 = (function (_,delta_time){
 var self__ = this;
 var ___$1 = this;
-var seq__13088 = cljs.core.seq(cljs.core.deref(self__.local_state));
-var chunk__13089 = null;
-var count__13090 = (0);
-var i__13091 = (0);
+var seq__13093 = cljs.core.seq(cljs.core.deref(self__.local_state));
+var chunk__13094 = null;
+var count__13095 = (0);
+var i__13096 = (0);
 while(true){
-if((i__13091 < count__13090)){
-var vec__13106 = chunk__13089.cljs$core$IIndexed$_nth$arity$2(null,i__13091);
-var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13106,(0),null);
-var follower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13106,(1),null);
+if((i__13096 < count__13095)){
+var vec__13108 = chunk__13094.cljs$core$IIndexed$_nth$arity$2(null,i__13096);
+var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13108,(0),null);
+var follower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13108,(1),null);
 zombie.scene.system.follow.tick_follower_BANG_(delta_time,follower);
 
 
-var G__13124 = seq__13088;
-var G__13125 = chunk__13089;
-var G__13126 = count__13090;
-var G__13127 = (i__13091 + (1));
-seq__13088 = G__13124;
-chunk__13089 = G__13125;
-count__13090 = G__13126;
-i__13091 = G__13127;
+var G__13124 = seq__13093;
+var G__13125 = chunk__13094;
+var G__13126 = count__13095;
+var G__13127 = (i__13096 + (1));
+seq__13093 = G__13124;
+chunk__13094 = G__13125;
+count__13095 = G__13126;
+i__13096 = G__13127;
 continue;
 } else {
-var temp__5753__auto__ = cljs.core.seq(seq__13088);
+var temp__5753__auto__ = cljs.core.seq(seq__13093);
 if(temp__5753__auto__){
-var seq__13088__$1 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__13088__$1)){
-var c__4638__auto__ = cljs.core.chunk_first(seq__13088__$1);
-var G__13128 = cljs.core.chunk_rest(seq__13088__$1);
+var seq__13093__$1 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__13093__$1)){
+var c__4638__auto__ = cljs.core.chunk_first(seq__13093__$1);
+var G__13128 = cljs.core.chunk_rest(seq__13093__$1);
 var G__13129 = c__4638__auto__;
 var G__13130 = cljs.core.count(c__4638__auto__);
 var G__13131 = (0);
-seq__13088 = G__13128;
-chunk__13089 = G__13129;
-count__13090 = G__13130;
-i__13091 = G__13131;
+seq__13093 = G__13128;
+chunk__13094 = G__13129;
+count__13095 = G__13130;
+i__13096 = G__13131;
 continue;
 } else {
-var vec__13111 = cljs.core.first(seq__13088__$1);
-var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13111,(0),null);
-var follower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13111,(1),null);
+var vec__13115 = cljs.core.first(seq__13093__$1);
+var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13115,(0),null);
+var follower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13115,(1),null);
 zombie.scene.system.follow.tick_follower_BANG_(delta_time,follower);
 
 
-var G__13132 = cljs.core.next(seq__13088__$1);
+var G__13132 = cljs.core.next(seq__13093__$1);
 var G__13133 = null;
 var G__13134 = (0);
 var G__13135 = (0);
-seq__13088 = G__13132;
-chunk__13089 = G__13133;
-count__13090 = G__13134;
-i__13091 = G__13135;
+seq__13093 = G__13132;
+chunk__13094 = G__13133;
+count__13095 = G__13134;
+i__13096 = G__13135;
 continue;
 }
 } else {

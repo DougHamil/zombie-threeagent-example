@@ -11,8 +11,8 @@ statecharts.core.reload = (function statecharts$core$reload(service,fsm){
 return statecharts.service.reload(service,fsm);
 });
 statecharts.core.send = (function statecharts$core$send(var_args){
-var G__12849 = arguments.length;
-switch (G__12849) {
+var G__12819 = arguments.length;
+switch (G__12819) {
 case 2:
 return statecharts.core.send.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -57,14 +57,14 @@ return statecharts.impl.is_prefix_QMARK_(v2,v1);
  */
 statecharts.core.update_state = (function statecharts$core$update_state(var_args){
 var args__4824__auto__ = [];
-var len__4818__auto___12900 = arguments.length;
-var i__4819__auto___12901 = (0);
+var len__4818__auto___12834 = arguments.length;
+var i__4819__auto___12835 = (0);
 while(true){
-if((i__4819__auto___12901 < len__4818__auto___12900)){
-args__4824__auto__.push((arguments[i__4819__auto___12901]));
+if((i__4819__auto___12835 < len__4818__auto___12834)){
+args__4824__auto__.push((arguments[i__4819__auto___12835]));
 
-var G__12902 = (i__4819__auto___12901 + (1));
-i__4819__auto___12901 = G__12902;
+var G__12836 = (i__4819__auto___12835 + (1));
+i__4819__auto___12835 = G__12836;
 continue;
 } else {
 }
@@ -77,21 +77,21 @@ return statecharts.core.update_state.cljs$core$IFn$_invoke$arity$variadic((argum
 
 (statecharts.core.update_state.cljs$core$IFn$_invoke$arity$variadic = (function (service,f,args){
 var state = service.state;
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(state,(function (p1__12895_SHARP_){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,p1__12895_SHARP_,args);
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(state,(function (p1__12824_SHARP_){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,p1__12824_SHARP_,args);
 }));
 }));
 
 (statecharts.core.update_state.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(statecharts.core.update_state.cljs$lang$applyTo = (function (seq12896){
-var G__12897 = cljs.core.first(seq12896);
-var seq12896__$1 = cljs.core.next(seq12896);
-var G__12898 = cljs.core.first(seq12896__$1);
-var seq12896__$2 = cljs.core.next(seq12896__$1);
+(statecharts.core.update_state.cljs$lang$applyTo = (function (seq12825){
+var G__12826 = cljs.core.first(seq12825);
+var seq12825__$1 = cljs.core.next(seq12825);
+var G__12827 = cljs.core.first(seq12825__$1);
+var seq12825__$2 = cljs.core.next(seq12825__$1);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__12897,G__12898,seq12896__$2);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__12826,G__12827,seq12825__$2);
 }));
 
 

@@ -32,10 +32,10 @@ return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn
 return anims;
 }
 });
-zombie.assets.animation.middleware = (function zombie$assets$animation$middleware(_key,anims,p__10503){
-var map__10504 = p__10503;
-var map__10504__$1 = cljs.core.__destructure_map(map__10504);
-var additive_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10504__$1,new cljs.core.Keyword(null,"additive?","additive?",1204187791));
+zombie.assets.animation.middleware = (function zombie$assets$animation$middleware(_key,anims,p__10505){
+var map__10506 = p__10505;
+var map__10506__$1 = cljs.core.__destructure_map(map__10506);
+var additive_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"additive?","additive?",1204187791));
 return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__10502_SHARP_){
 if(cljs.core.truth_(additive_QMARK_)){
 return module$node_modules$three$build$three_module.AnimationUtils.makeClipAdditive(p1__10502_SHARP_);

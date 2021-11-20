@@ -1,34 +1,34 @@
 goog.provide('zombie.scene.system.weapon');
 zombie.scene.system.weapon._STAR_next_id_STAR_ = (0);
-zombie.scene.system.weapon._semi_auto_entry_fire = (function zombie$scene$system$weapon$_semi_auto_entry_fire(p__13239,_evt){
-var map__13240 = p__13239;
-var map__13240__$1 = cljs.core.__destructure_map(map__13240);
-var bus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13240__$1,new cljs.core.Keyword(null,"bus","bus",-1090873603));
-var local_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13240__$1,new cljs.core.Keyword(null,"local-state","local-state",-282143524));
-var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13240__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
+zombie.scene.system.weapon._semi_auto_entry_fire = (function zombie$scene$system$weapon$_semi_auto_entry_fire(p__13206,_evt){
+var map__13211 = p__13206;
+var map__13211__$1 = cljs.core.__destructure_map(map__13211);
+var bus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"bus","bus",-1090873603));
+var local_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"local-state","local-state",-282143524));
+var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 return (zombie.scene.system.weapon.fire_weapon_BANG_.cljs$core$IFn$_invoke$arity$3 ? zombie.scene.system.weapon.fire_weapon_BANG_.cljs$core$IFn$_invoke$arity$3(bus,local_state,entity_id) : zombie.scene.system.weapon.fire_weapon_BANG_.call(null,bus,local_state,entity_id));
 });
 zombie.scene.system.weapon.semi_auto_fsm = (function zombie$scene$system$weapon$semi_auto_fsm(firing_rate){
-var G__13241 = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"id","id",-1388402092),new cljs.core.Keyword("weapon","semi-auto","weapon/semi-auto",-820018050),new cljs.core.Keyword(null,"initial","initial",1854648214),new cljs.core.Keyword(null,"idle","idle",-2007156861),new cljs.core.Keyword(null,"on","on",173873944),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"start-firing","start-firing",804428738),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"end-firing","end-firing",24849812),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"tick","tick",-835886976),cljs.core.PersistentArrayMap.EMPTY], null),new cljs.core.Keyword(null,"states","states",1389013542),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"idle","idle",-2007156861),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on","on",173873944),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"start-firing","start-firing",804428738),new cljs.core.Keyword(null,"fire","fire",-144730624)], null)], null),new cljs.core.Keyword(null,"fire","fire",-144730624),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"entry","entry",505168823),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.system.weapon._semi_auto_entry_fire], null),new cljs.core.Keyword(null,"after","after",594996914),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"delay","delay",-574225219),((1000) * (1.0 / firing_rate)),new cljs.core.Keyword(null,"target","target",253001721),new cljs.core.Keyword(null,"idle","idle",-2007156861)], null)], null)], null)], null)], null);
-return (statecharts.core.machine.cljs$core$IFn$_invoke$arity$1 ? statecharts.core.machine.cljs$core$IFn$_invoke$arity$1(G__13241) : statecharts.core.machine.call(null,G__13241));
+var G__13227 = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"id","id",-1388402092),new cljs.core.Keyword("weapon","semi-auto","weapon/semi-auto",-820018050),new cljs.core.Keyword(null,"initial","initial",1854648214),new cljs.core.Keyword(null,"idle","idle",-2007156861),new cljs.core.Keyword(null,"on","on",173873944),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"start-firing","start-firing",804428738),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"end-firing","end-firing",24849812),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"tick","tick",-835886976),cljs.core.PersistentArrayMap.EMPTY], null),new cljs.core.Keyword(null,"states","states",1389013542),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"idle","idle",-2007156861),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on","on",173873944),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"start-firing","start-firing",804428738),new cljs.core.Keyword(null,"fire","fire",-144730624)], null)], null),new cljs.core.Keyword(null,"fire","fire",-144730624),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"entry","entry",505168823),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.system.weapon._semi_auto_entry_fire], null),new cljs.core.Keyword(null,"after","after",594996914),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"delay","delay",-574225219),((1000) * (1.0 / firing_rate)),new cljs.core.Keyword(null,"target","target",253001721),new cljs.core.Keyword(null,"idle","idle",-2007156861)], null)], null)], null)], null)], null);
+return (statecharts.core.machine.cljs$core$IFn$_invoke$arity$1 ? statecharts.core.machine.cljs$core$IFn$_invoke$arity$1(G__13227) : statecharts.core.machine.call(null,G__13227));
 });
 zombie.scene.system.weapon.spawn_particles_BANG_ = (function zombie$scene$system$weapon$spawn_particles_BANG_(bus,type,pos,dir){
 return zombie.util.messaging.send(bus,new cljs.core.Keyword("particles","spawn","particles/spawn",282676462),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),type,new cljs.core.Keyword(null,"position","position",-2011731912),pos,new cljs.core.Keyword(null,"rotation","rotation",-1728051644),dir], null));
 });
 zombie.scene.system.weapon.fire_weapon_BANG_ = (function zombie$scene$system$weapon$fire_weapon_BANG_(bus,local_state,entity_id){
 var physics_system = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"systems","systems",-1015374944),new cljs.core.Keyword(null,"physics","physics",-1254209137)], null));
-var map__13268 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"weapons","weapons",-1983639898),entity_id], null));
-var map__13268__$1 = cljs.core.__destructure_map(map__13268);
-var damage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13268__$1,new cljs.core.Keyword(null,"damage","damage",970520018));
-var aim = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13268__$1,new cljs.core.Keyword(null,"aim","aim",-1211687229));
-var map__13269 = aim;
-var map__13269__$1 = cljs.core.__destructure_map(map__13269);
-var world_position = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13269__$1,new cljs.core.Keyword(null,"world-position","world-position",-486434797));
-var world_direction = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13269__$1,new cljs.core.Keyword(null,"world-direction","world-direction",-1274942861));
+var map__13243 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"weapons","weapons",-1983639898),entity_id], null));
+var map__13243__$1 = cljs.core.__destructure_map(map__13243);
+var damage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13243__$1,new cljs.core.Keyword(null,"damage","damage",970520018));
+var aim = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13243__$1,new cljs.core.Keyword(null,"aim","aim",-1211687229));
+var map__13244 = aim;
+var map__13244__$1 = cljs.core.__destructure_map(map__13244);
+var world_position = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13244__$1,new cljs.core.Keyword(null,"world-position","world-position",-486434797));
+var world_direction = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13244__$1,new cljs.core.Keyword(null,"world-direction","world-direction",-1274942861));
 var ray_start = zombie.util.threejs.tuple__GT_vector3(world_position);
 var ray_end = zombie.util.threejs.tuple__GT_vector3(world_direction).multiplyScalar((10)).add(ray_start);
-var hits = cljs.core.take.cljs$core$IFn$_invoke$arity$2((1),cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"distance","distance",-1671893894),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__13256_SHARP_){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(entity_id,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093).cljs$core$IFn$_invoke$arity$1(p1__13256_SHARP_));
+var hits = cljs.core.take.cljs$core$IFn$_invoke$arity$2((1),cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"distance","distance",-1671893894),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__13242_SHARP_){
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(entity_id,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093).cljs$core$IFn$_invoke$arity$1(p1__13242_SHARP_));
 }),zombie.scene.system.physics.core.raycast_all(physics_system,zombie.util.threejs.vector3__GT_tuple(ray_start),zombie.util.threejs.vector3__GT_tuple(ray_end)))));
 zombie.util.messaging.send(bus,entity_id,new cljs.core.Keyword("audio","play-sound","audio/play-sound",-1045916618),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword("sfx","laser-large","sfx/laser-large",346806202)], null));
 
@@ -39,13 +39,13 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(zombie.state.databases.rays,c
 } else {
 }
 
-var seq__13270 = cljs.core.seq(hits);
-var chunk__13271 = null;
-var count__13272 = (0);
-var i__13273 = (0);
+var seq__13251 = cljs.core.seq(hits);
+var chunk__13252 = null;
+var count__13253 = (0);
+var i__13254 = (0);
 while(true){
-if((i__13273 < count__13272)){
-var map__13276 = chunk__13271.cljs$core$IIndexed$_nth$arity$2(null,i__13273);
+if((i__13254 < count__13253)){
+var map__13276 = chunk__13252.cljs$core$IIndexed$_nth$arity$2(null,i__13254);
 var map__13276__$1 = cljs.core.__destructure_map(map__13276);
 var enemy_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13276__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 var normal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13276__$1,new cljs.core.Keyword(null,"hit-normal","hit-normal",929947402));
@@ -63,32 +63,32 @@ zombie.scene.system.weapon.spawn_particles_BANG_(bus,new cljs.core.Keyword(null,
 }
 
 
-var G__13286 = seq__13270;
-var G__13287 = chunk__13271;
-var G__13288 = count__13272;
-var G__13289 = (i__13273 + (1));
-seq__13270 = G__13286;
-chunk__13271 = G__13287;
-count__13272 = G__13288;
-i__13273 = G__13289;
+var G__13286 = seq__13251;
+var G__13287 = chunk__13252;
+var G__13288 = count__13253;
+var G__13289 = (i__13254 + (1));
+seq__13251 = G__13286;
+chunk__13252 = G__13287;
+count__13253 = G__13288;
+i__13254 = G__13289;
 continue;
 } else {
-var temp__5753__auto__ = cljs.core.seq(seq__13270);
+var temp__5753__auto__ = cljs.core.seq(seq__13251);
 if(temp__5753__auto__){
-var seq__13270__$1 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__13270__$1)){
-var c__4638__auto__ = cljs.core.chunk_first(seq__13270__$1);
-var G__13290 = cljs.core.chunk_rest(seq__13270__$1);
+var seq__13251__$1 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__13251__$1)){
+var c__4638__auto__ = cljs.core.chunk_first(seq__13251__$1);
+var G__13290 = cljs.core.chunk_rest(seq__13251__$1);
 var G__13291 = c__4638__auto__;
 var G__13292 = cljs.core.count(c__4638__auto__);
 var G__13293 = (0);
-seq__13270 = G__13290;
-chunk__13271 = G__13291;
-count__13272 = G__13292;
-i__13273 = G__13293;
+seq__13251 = G__13290;
+chunk__13252 = G__13291;
+count__13253 = G__13292;
+i__13254 = G__13293;
 continue;
 } else {
-var map__13277 = cljs.core.first(seq__13270__$1);
+var map__13277 = cljs.core.first(seq__13251__$1);
 var map__13277__$1 = cljs.core.__destructure_map(map__13277);
 var enemy_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13277__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 var normal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13277__$1,new cljs.core.Keyword(null,"hit-normal","hit-normal",929947402));
@@ -106,14 +106,14 @@ zombie.scene.system.weapon.spawn_particles_BANG_(bus,new cljs.core.Keyword(null,
 }
 
 
-var G__13294 = cljs.core.next(seq__13270__$1);
+var G__13294 = cljs.core.next(seq__13251__$1);
 var G__13295 = null;
 var G__13296 = (0);
 var G__13297 = (0);
-seq__13270 = G__13294;
-chunk__13271 = G__13295;
-count__13272 = G__13296;
-i__13273 = G__13297;
+seq__13251 = G__13294;
+chunk__13252 = G__13295;
+count__13253 = G__13296;
+i__13254 = G__13297;
 continue;
 }
 } else {
