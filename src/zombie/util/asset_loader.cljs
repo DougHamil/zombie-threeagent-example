@@ -3,10 +3,13 @@
             [clojure.string :as string]))
 
 (defn- join-path [base addition]
-  (let [addition (if (string/starts-with? addition "/")
-                   addition
-                   (str "/" addition))]
-    (str base addition)))
+  (let [base (if (string/ends-with? base "/")
+               (string/join "" (drop-last base))
+               base)
+        addition (if (string/starts-with? addition "/")
+                   (string/join "" (rest addition))
+                   addition)]
+    (str base "/" addition)))
 
 (defn- leaf? [v]
   (and (vector? v)
@@ -110,7 +113,7 @@
 
 (defn load! [database tree]
   (let [nodes (->> tree
-                   (mapcat (partial visit {:path "" :middleware []}))
+                   (mapcat (partial visit {:path "./" :middleware []}))
                    (validate!)
                    (into {}))
         promises (atom {})]
