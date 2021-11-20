@@ -5,6 +5,7 @@ This is a work-in-progress game written in ClojureScript with [Threeagent](https
 This project is for:
 * Demonstrating and dog-fooding Threeagent's feature-set
 * Serving as a reference for advanced Threeeagent usage
+* Exploring game development in ClojureScript
 
 ## Development
 
@@ -22,8 +23,10 @@ Navigate to [http://localhost:8080](http://localhost:8080) and start coding!
 
 > It is highly recommended that you use Chrome for this game
 
-## Credits
+## Attribution
 
-All assets in this repo are [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) licensed.
+Fonts are licensed under [OFL](https://scripts.sil.org/OFL).
+
+Other assets are [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
 Most of the 3D assets are from the excellent [Kenney](https://kenney.nl/) asset packs.
