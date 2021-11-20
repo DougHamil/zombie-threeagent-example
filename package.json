@@ -1,0 +1,21 @@
+{
+  "name": "zombie-threeagent-example",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.15.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.3",
+    "@tweenjs/tween.js": "^18.6.4",
+    "create-react-class": "^15.6.3",
+    "howler": "^2.2.3",
+    "matter-js": "^0.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "three": "^0.132.2",
+    "three-instanced-mesh": "^0.96.2",
+    "three-nebula": "^10.0.2",
+    "troika-three-text": "^0.42.0"
+  }
+}
