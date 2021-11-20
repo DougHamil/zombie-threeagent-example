@@ -35,7 +35,7 @@ jobs:
       - run: rm -rf ./*
       - attach_workspace:
           at: /tmp/workspace
-      - run: cp -r ./tmp/workspace/public/* ./
+      - run: cp -r /tmp/workspace/public/* ./
       - run: git add ./
       - run: git commit -m "[skip ci] publish"
       - run: git push
