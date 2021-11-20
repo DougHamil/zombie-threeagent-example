@@ -55,8 +55,8 @@ if((i__10651 < size__4610__auto__)){
 var i = cljs.core._nth(c__4609__auto__,i__10651);
 cljs.core.chunk_append(b__10652,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((i * wall_width) - (zombie.scene.map.lot_size / (2))),(0),(0)], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [1.0,1.0,1.0], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.model,new cljs.core.Keyword("model","column-large","model/column-large",1333926303),false], null)], null));
 
-var G__10728 = (i__10651 + (1));
-i__10651 = G__10728;
+var G__10730 = (i__10651 + (1));
+i__10651 = G__10730;
 continue;
 } else {
 return true;
@@ -187,25 +187,25 @@ zombie.scene.map.bounds = (function zombie$scene$map$bounds(door_tween,dirs){
 return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(zombie.scene.map.lot_size / (2)),(0),(0)], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.wall,(cljs.core.truth_((dirs.cljs$core$IFn$_invoke$arity$1 ? dirs.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"e","e",1381269198)) : dirs.call(null,new cljs.core.Keyword(null,"e","e",1381269198))))?door_tween:null)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(zombie.scene.map.lot_size / (-2)),(0),(0)], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.wall,(cljs.core.truth_((dirs.cljs$core$IFn$_invoke$arity$1 ? dirs.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"w","w",354169001)) : dirs.call(null,new cljs.core.Keyword(null,"w","w",354169001))))?door_tween:null)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(zombie.scene.map.lot_size / (2))], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.wall,(cljs.core.truth_((dirs.cljs$core$IFn$_invoke$arity$1 ? dirs.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"n","n",562130025)) : dirs.call(null,new cljs.core.Keyword(null,"n","n",562130025))))?door_tween:null)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(zombie.scene.map.lot_size / (-2))], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.wall,(cljs.core.truth_((dirs.cljs$core$IFn$_invoke$arity$1 ? dirs.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"s","s",1705939918)) : dirs.call(null,new cljs.core.Keyword(null,"s","s",1705939918))))?door_tween:null)], null)], null)], null);
 });
 zombie.scene.map.lot1 = (function zombie$scene$map$lot1(room_id,active_QMARK_,cleared_QMARK_){
-return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.road], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.grass], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [-8.5,(0),-2.5], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),(cljs.core.truth_(active_QMARK_)?new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.lightpost], null):null)], null),(cljs.core.truth_(cljs.core.deref(cleared_QMARK_))?null:new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$lot1_$_iter__10661(s__10662){
+return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.road], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.grass], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [-8.5,(0),-2.5], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),(cljs.core.truth_(active_QMARK_)?new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.lightpost], null):null)], null),(cljs.core.truth_(cljs.core.deref(cleared_QMARK_))?null:new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$lot1_$_iter__10669(s__10670){
 return (new cljs.core.LazySeq(null,(function (){
-var s__10662__$1 = s__10662;
+var s__10670__$1 = s__10670;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__10662__$1);
+var temp__5753__auto__ = cljs.core.seq(s__10670__$1);
 if(temp__5753__auto__){
-var s__10662__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__10662__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__10662__$2);
+var s__10670__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__10670__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__10670__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__10664 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__10663 = (0);
+var b__10672 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__10671 = (0);
 while(true){
-if((i__10663 < size__4610__auto__)){
-var i = cljs.core._nth(c__4609__auto__,i__10663);
-cljs.core.chunk_append(b__10664,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(room_id),"|coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null));
+if((i__10671 < size__4610__auto__)){
+var i = cljs.core._nth(c__4609__auto__,i__10671);
+cljs.core.chunk_append(b__10672,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(room_id),"|coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null));
 
-var G__10733 = (i__10663 + (1));
-i__10663 = G__10733;
+var G__10733 = (i__10671 + (1));
+i__10671 = G__10733;
 continue;
 } else {
 return true;
@@ -213,13 +213,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__10664),zombie$scene$map$lot1_$_iter__10661(cljs.core.chunk_rest(s__10662__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__10672),zombie$scene$map$lot1_$_iter__10669(cljs.core.chunk_rest(s__10670__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__10664),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__10672),null);
 }
 } else {
-var i = cljs.core.first(s__10662__$2);
-return cljs.core.cons(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(room_id),"|coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null),zombie$scene$map$lot1_$_iter__10661(cljs.core.rest(s__10662__$2)));
+var i = cljs.core.first(s__10670__$2);
+return cljs.core.cons(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(room_id),"|coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null),zombie$scene$map$lot1_$_iter__10669(cljs.core.rest(s__10670__$2)));
 }
 } else {
 return null;
@@ -232,25 +232,25 @@ return iter__4611__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1((3)));
 })()], null))], null);
 });
 zombie.scene.map.lot2 = (function zombie$scene$map$lot2(door_tween){
-return new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),"lot2",new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.scene.map.lot_size),(0),(0)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.bounds,door_tween,new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"n","n",562130025),null,new cljs.core.Keyword(null,"w","w",354169001),null,new cljs.core.Keyword(null,"s","s",1705939918),null], null), null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.road], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.grass], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [-8.5,(0),-2.5], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.lightpost], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$lot2_$_iter__10665(s__10666){
+return new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),"lot2",new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.scene.map.lot_size),(0),(0)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.bounds,door_tween,new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"n","n",562130025),null,new cljs.core.Keyword(null,"w","w",354169001),null,new cljs.core.Keyword(null,"s","s",1705939918),null], null), null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.road], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.grass], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [-8.5,(0),-2.5], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),zombie.util.math.pi2,(0)], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.lightpost], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$lot2_$_iter__10679(s__10680){
 return (new cljs.core.LazySeq(null,(function (){
-var s__10666__$1 = s__10666;
+var s__10680__$1 = s__10680;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__10666__$1);
+var temp__5753__auto__ = cljs.core.seq(s__10680__$1);
 if(temp__5753__auto__){
-var s__10666__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__10666__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__10666__$2);
+var s__10680__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__10680__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__10680__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__10668 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__10667 = (0);
+var b__10682 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__10681 = (0);
 while(true){
-if((i__10667 < size__4610__auto__)){
-var i = cljs.core._nth(c__4609__auto__,i__10667);
-cljs.core.chunk_append(b__10668,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,["lot2-coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null));
+if((i__10681 < size__4610__auto__)){
+var i = cljs.core._nth(c__4609__auto__,i__10681);
+cljs.core.chunk_append(b__10682,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,["lot2-coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null));
 
-var G__10734 = (i__10667 + (1));
-i__10667 = G__10734;
+var G__10734 = (i__10681 + (1));
+i__10681 = G__10734;
 continue;
 } else {
 return true;
@@ -258,13 +258,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__10668),zombie$scene$map$lot2_$_iter__10665(cljs.core.chunk_rest(s__10666__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__10682),zombie$scene$map$lot2_$_iter__10679(cljs.core.chunk_rest(s__10680__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__10668),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__10682),null);
 }
 } else {
-var i = cljs.core.first(s__10666__$2);
-return cljs.core.cons(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,["lot2-coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null),zombie$scene$map$lot2_$_iter__10665(cljs.core.rest(s__10666__$2)));
+var i = cljs.core.first(s__10680__$2);
+return cljs.core.cons(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [((-3) * i),(0),(5)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.coffin1,["lot2-coffin-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null)], null),zombie$scene$map$lot2_$_iter__10679(cljs.core.rest(s__10680__$2)));
 }
 } else {
 return null;
@@ -277,12 +277,12 @@ return iter__4611__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1((3)));
 })()], null)], null);
 });
 zombie.scene.map.ground = (function zombie$scene$map$ground(){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(0)], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [100.0,100.0,100.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (p__10673){
-var map__10674 = p__10673;
-var map__10674__$1 = cljs.core.__destructure_map(map__10674);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10674__$1,new cljs.core.Keyword(null,"x","x",2099068185));
-var _y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10674__$1,new cljs.core.Keyword(null,"_y","_y",415925162));
-var z = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10674__$1,new cljs.core.Keyword(null,"z","z",-789527183));
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0),(0)], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [100.0,100.0,100.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (p__10693){
+var map__10694 = p__10693;
+var map__10694__$1 = cljs.core.__destructure_map(map__10694);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10694__$1,new cljs.core.Keyword(null,"x","x",2099068185));
+var _y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10694__$1,new cljs.core.Keyword(null,"_y","_y",415925162));
+var z = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10694__$1,new cljs.core.Keyword(null,"z","z",-789527183));
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(zombie.state.databases.scene,cljs.core.assoc,new cljs.core.Keyword(null,"boxes","boxes",-420813822),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,(0),z], null)], null));
 })], null),new cljs.core.Keyword(null,"material","material",460118677),new cljs.core.Keyword("material","tile","material/tile",1524419497).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(zombie.state.databases.assets))], null)], null)], null);
 });
@@ -291,8 +291,8 @@ var cleared_QMARK_ = (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? three
 var on_clear = (function (){
 return cljs.core.reset_BANG_(cleared_QMARK_,true);
 });
-var entity_db = (function (){var G__10679 = cljs.core.PersistentArrayMap.EMPTY;
-return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10679) : threeagent.core.atom.call(null,G__10679));
+var entity_db = (function (){var G__10701 = cljs.core.PersistentArrayMap.EMPTY;
+return (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1(G__10701) : threeagent.core.atom.call(null,G__10701));
 })();
 var door_tween = (threeagent.core.atom.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.atom.cljs$core$IFn$_invoke$arity$1((0)) : threeagent.core.atom.call(null,(0)));
 return (function (id,x,y,active_QMARK_,visible_QMARK_,lot_fn,doors){
@@ -300,60 +300,60 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 });
 });
 zombie.scene.map.player_cell_position = (function zombie$scene$map$player_cell_position(){
-var vec__10682 = cljs.core.deref((function (){var G__10685 = zombie.state.databases.player;
-var G__10686 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"world-position","world-position",-486434797)], null);
-return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10685,G__10686) : threeagent.core.cursor.call(null,G__10685,G__10686));
+var vec__10709 = cljs.core.deref((function (){var G__10712 = zombie.state.databases.player;
+var G__10713 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"world-position","world-position",-486434797)], null);
+return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10712,G__10713) : threeagent.core.cursor.call(null,G__10712,G__10713));
 })());
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10682,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10682,(1),null);
-var z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10682,(2),null);
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10709,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10709,(1),null);
+var z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10709,(2),null);
 var norm_x = ((x + zombie.scene.map.half_lot_size) / zombie.scene.map.lot_size);
 var norm_z = ((z + zombie.scene.map.half_lot_size) / zombie.scene.map.lot_size);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [Math.floor(norm_x),Math.floor(norm_z)], null);
 });
 zombie.scene.map.get_bounds_for_cell = (function zombie$scene$map$get_bounds_for_cell(map_size,cell_x,cell_z){
-var G__10691 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"n","n",562130025),null,new cljs.core.Keyword(null,"w","w",354169001),null,new cljs.core.Keyword(null,"e","e",1381269198),null,new cljs.core.Keyword(null,"s","s",1705939918),null], null), null);
-var G__10691__$1 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((0),cell_x))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10691,new cljs.core.Keyword(null,"e","e",1381269198)):G__10691);
-var G__10691__$2 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((0),cell_z))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10691__$1,new cljs.core.Keyword(null,"s","s",1705939918)):G__10691__$1);
-var G__10691__$3 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((map_size - (1)),cell_x))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10691__$2,new cljs.core.Keyword(null,"w","w",354169001)):G__10691__$2);
+var G__10717 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"n","n",562130025),null,new cljs.core.Keyword(null,"w","w",354169001),null,new cljs.core.Keyword(null,"e","e",1381269198),null,new cljs.core.Keyword(null,"s","s",1705939918),null], null), null);
+var G__10717__$1 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((0),cell_x))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10717,new cljs.core.Keyword(null,"e","e",1381269198)):G__10717);
+var G__10717__$2 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((0),cell_z))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10717__$1,new cljs.core.Keyword(null,"s","s",1705939918)):G__10717__$1);
+var G__10717__$3 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((map_size - (1)),cell_x))?cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10717__$2,new cljs.core.Keyword(null,"w","w",354169001)):G__10717__$2);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((map_size - (1)),cell_z)){
-return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10691__$3,new cljs.core.Keyword(null,"n","n",562130025));
+return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(G__10717__$3,new cljs.core.Keyword(null,"n","n",562130025));
 } else {
-return G__10691__$3;
+return G__10717__$3;
 }
 });
 zombie.scene.map.render = (function zombie$scene$map$render(){
-var vec__10698 = cljs.core.deref((threeagent.core.track.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.track.cljs$core$IFn$_invoke$arity$1(zombie.scene.map.player_cell_position) : threeagent.core.track.call(null,zombie.scene.map.player_cell_position)));
-var cell_x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10698,(0),null);
-var cell_z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10698,(1),null);
+var vec__10718 = cljs.core.deref((threeagent.core.track.cljs$core$IFn$_invoke$arity$1 ? threeagent.core.track.cljs$core$IFn$_invoke$arity$1(zombie.scene.map.player_cell_position) : threeagent.core.track.call(null,zombie.scene.map.player_cell_position)));
+var cell_x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10718,(0),null);
+var cell_z = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10718,(1),null);
 var map_size = (3);
 var sight_range = (2);
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$render_$_iter__10701(s__10702){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),(function (){var iter__4611__auto__ = (function zombie$scene$map$render_$_iter__10721(s__10722){
 return (new cljs.core.LazySeq(null,(function (){
-var s__10702__$1 = s__10702;
+var s__10722__$1 = s__10722;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__10702__$1);
+var temp__5753__auto__ = cljs.core.seq(s__10722__$1);
 if(temp__5753__auto__){
 var xs__6308__auto__ = temp__5753__auto__;
 var x = cljs.core.first(xs__6308__auto__);
-var iterys__4607__auto__ = ((function (s__10702__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10698,cell_x,cell_z,map_size,sight_range){
-return (function zombie$scene$map$render_$_iter__10701_$_iter__10703(s__10704){
-return (new cljs.core.LazySeq(null,((function (s__10702__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10698,cell_x,cell_z,map_size,sight_range){
+var iterys__4607__auto__ = ((function (s__10722__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10718,cell_x,cell_z,map_size,sight_range){
+return (function zombie$scene$map$render_$_iter__10721_$_iter__10723(s__10724){
+return (new cljs.core.LazySeq(null,((function (s__10722__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10718,cell_x,cell_z,map_size,sight_range){
 return (function (){
-var s__10704__$1 = s__10704;
+var s__10724__$1 = s__10724;
 while(true){
-var temp__5753__auto____$1 = cljs.core.seq(s__10704__$1);
+var temp__5753__auto____$1 = cljs.core.seq(s__10724__$1);
 if(temp__5753__auto____$1){
-var s__10704__$2 = temp__5753__auto____$1;
-if(cljs.core.chunked_seq_QMARK_(s__10704__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__10704__$2);
+var s__10724__$2 = temp__5753__auto____$1;
+if(cljs.core.chunked_seq_QMARK_(s__10724__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__10724__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__10706 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__10705 = (0);
+var b__10726 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__10725 = (0);
 while(true){
-if((i__10705 < size__4610__auto__)){
-var y = cljs.core._nth(c__4609__auto__,i__10705);
-cljs.core.chunk_append(b__10706,(function (){var room_id = ["room-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(y)].join('');
+if((i__10725 < size__4610__auto__)){
+var y = cljs.core._nth(c__4609__auto__,i__10725);
+cljs.core.chunk_append(b__10726,(function (){var room_id = ["room-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(y)].join('');
 var x__$1 = (- x);
 var active_QMARK_ = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(x__$1,cell_x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(y,cell_z)));
 var visible_QMARK_ = (((sight_range > ((function (){var x__4295__auto__ = x__$1;
@@ -372,8 +372,8 @@ return ((x__4298__auto__ < y__4299__auto__) ? x__4298__auto__ : y__4299__auto__)
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.room,room_id,x__$1,y,active_QMARK_,visible_QMARK_,zombie.scene.map.lot1,zombie.scene.map.get_bounds_for_cell(map_size,(- x__$1),y)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),room_id], null));
 })());
 
-var G__10735 = (i__10705 + (1));
-i__10705 = G__10735;
+var G__10735 = (i__10725 + (1));
+i__10725 = G__10735;
 continue;
 } else {
 return true;
@@ -381,12 +381,12 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__10706),zombie$scene$map$render_$_iter__10701_$_iter__10703(cljs.core.chunk_rest(s__10704__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__10726),zombie$scene$map$render_$_iter__10721_$_iter__10723(cljs.core.chunk_rest(s__10724__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__10706),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__10726),null);
 }
 } else {
-var y = cljs.core.first(s__10704__$2);
+var y = cljs.core.first(s__10724__$2);
 return cljs.core.cons((function (){var room_id = ["room-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(y)].join('');
 var x__$1 = (- x);
 var active_QMARK_ = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(x__$1,cell_x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(y,cell_z)));
@@ -404,23 +404,23 @@ var y__4299__auto__ = cell_z;
 return ((x__4298__auto__ < y__4299__auto__) ? x__4298__auto__ : y__4299__auto__);
 })()))));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.map.room,room_id,x__$1,y,active_QMARK_,visible_QMARK_,zombie.scene.map.lot1,zombie.scene.map.get_bounds_for_cell(map_size,(- x__$1),y)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),room_id], null));
-})(),zombie$scene$map$render_$_iter__10701_$_iter__10703(cljs.core.rest(s__10704__$2)));
+})(),zombie$scene$map$render_$_iter__10721_$_iter__10723(cljs.core.rest(s__10724__$2)));
 }
 } else {
 return null;
 }
 break;
 }
-});})(s__10702__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10698,cell_x,cell_z,map_size,sight_range))
+});})(s__10722__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10718,cell_x,cell_z,map_size,sight_range))
 ,null,null));
-});})(s__10702__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10698,cell_x,cell_z,map_size,sight_range))
+});})(s__10722__$1,x,xs__6308__auto__,temp__5753__auto__,vec__10718,cell_x,cell_z,map_size,sight_range))
 ;
 var fs__4608__auto__ = cljs.core.seq(iterys__4607__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1(map_size)));
 if(fs__4608__auto__){
-return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(fs__4608__auto__,zombie$scene$map$render_$_iter__10701(cljs.core.rest(s__10702__$1)));
+return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(fs__4608__auto__,zombie$scene$map$render_$_iter__10721(cljs.core.rest(s__10722__$1)));
 } else {
-var G__10736 = cljs.core.rest(s__10702__$1);
-s__10702__$1 = G__10736;
+var G__10738 = cljs.core.rest(s__10722__$1);
+s__10722__$1 = G__10738;
 continue;
 }
 } else {

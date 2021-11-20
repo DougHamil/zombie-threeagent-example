@@ -335,15 +335,15 @@ malli.impl.regex.item_validator = (function malli$impl$regex$item_validator(vali
 return (function (_,___$1,pos,coll,k){
 if(cljs.core.truth_((function (){var and__4210__auto__ = cljs.core.seq(coll);
 if(and__4210__auto__){
-var G__11157 = cljs.core.first(coll);
-return (valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? valid_QMARK_.cljs$core$IFn$_invoke$arity$1(G__11157) : valid_QMARK_.call(null,G__11157));
+var G__11158 = cljs.core.first(coll);
+return (valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? valid_QMARK_.cljs$core$IFn$_invoke$arity$1(G__11158) : valid_QMARK_.call(null,G__11158));
 } else {
 return and__4210__auto__;
 }
 })())){
-var G__11158 = (pos + (1));
-var G__11159 = cljs.core.rest(coll);
-return (k.cljs$core$IFn$_invoke$arity$2 ? k.cljs$core$IFn$_invoke$arity$2(G__11158,G__11159) : k.call(null,G__11158,G__11159));
+var G__11159 = (pos + (1));
+var G__11160 = cljs.core.rest(coll);
+return (k.cljs$core$IFn$_invoke$arity$2 ? k.cljs$core$IFn$_invoke$arity$2(G__11159,G__11160) : k.call(null,G__11159,G__11160));
 } else {
 return null;
 }
@@ -353,17 +353,17 @@ malli.impl.regex.item_explainer = (function malli$impl$regex$item_explainer(path
 return (function (driver,_,pos,coll,k){
 var in$ = malli.impl.regex.value_path(driver,pos);
 if(cljs.core.seq(coll)){
-var errors = (function (){var G__11160 = cljs.core.first(coll);
-var G__11161 = in$;
-var G__11162 = cljs.core.PersistentVector.EMPTY;
-return (schema_explainer.cljs$core$IFn$_invoke$arity$3 ? schema_explainer.cljs$core$IFn$_invoke$arity$3(G__11160,G__11161,G__11162) : schema_explainer.call(null,G__11160,G__11161,G__11162));
+var errors = (function (){var G__11164 = cljs.core.first(coll);
+var G__11165 = in$;
+var G__11166 = cljs.core.PersistentVector.EMPTY;
+return (schema_explainer.cljs$core$IFn$_invoke$arity$3 ? schema_explainer.cljs$core$IFn$_invoke$arity$3(G__11164,G__11165,G__11166) : schema_explainer.call(null,G__11164,G__11165,G__11166));
 })();
 if(cljs.core.seq(errors)){
 return malli.impl.regex.fail_BANG_(driver,pos,errors);
 } else {
-var G__11164 = (pos + (1));
-var G__11165 = cljs.core.rest(coll);
-return (k.cljs$core$IFn$_invoke$arity$2 ? k.cljs$core$IFn$_invoke$arity$2(G__11164,G__11165) : k.call(null,G__11164,G__11165));
+var G__11167 = (pos + (1));
+var G__11168 = cljs.core.rest(coll);
+return (k.cljs$core$IFn$_invoke$arity$2 ? k.cljs$core$IFn$_invoke$arity$2(G__11167,G__11168) : k.call(null,G__11167,G__11168));
 }
 } else {
 return malli.impl.regex.fail_BANG_(driver,pos,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [malli.impl.util._error.cljs$core$IFn$_invoke$arity$5(path,in$,schema,null,new cljs.core.Keyword("malli.core","end-of-input","malli.core/end-of-input",-491237771))], null));
@@ -373,8 +373,8 @@ return malli.impl.regex.fail_BANG_(driver,pos,new cljs.core.PersistentVector(nul
 malli.impl.regex.item_parser = (function malli$impl$regex$item_parser(parse){
 return (function (_,___$1,pos,coll,k){
 if(cljs.core.seq(coll)){
-var v = (function (){var G__11166 = cljs.core.first(coll);
-return (parse.cljs$core$IFn$_invoke$arity$1 ? parse.cljs$core$IFn$_invoke$arity$1(G__11166) : parse.call(null,G__11166));
+var v = (function (){var G__11169 = cljs.core.first(coll);
+return (parse.cljs$core$IFn$_invoke$arity$1 ? parse.cljs$core$IFn$_invoke$arity$1(G__11169) : parse.call(null,G__11169));
 })();
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(v,new cljs.core.Keyword("malli.core","invalid","malli.core/invalid",362080900))){
 return null;
@@ -399,10 +399,10 @@ return (function (_,___$1,coll_STAR_,pos,coll,k){
 if(cljs.core.seq(coll)){
 var v = cljs.core.first(coll);
 if(cljs.core.truth_((valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? valid_QMARK_.cljs$core$IFn$_invoke$arity$1(v) : valid_QMARK_.call(null,v)))){
-var G__11173 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,(encode.cljs$core$IFn$_invoke$arity$1 ? encode.cljs$core$IFn$_invoke$arity$1(v) : encode.call(null,v)));
-var G__11174 = (pos + (1));
-var G__11175 = cljs.core.rest(coll);
-return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11173,G__11174,G__11175) : k.call(null,G__11173,G__11174,G__11175));
+var G__11175 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,(encode.cljs$core$IFn$_invoke$arity$1 ? encode.cljs$core$IFn$_invoke$arity$1(v) : encode.call(null,v)));
+var G__11176 = (pos + (1));
+var G__11177 = cljs.core.rest(coll);
+return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11175,G__11176,G__11177) : k.call(null,G__11175,G__11176,G__11177));
 } else {
 return null;
 }
@@ -414,14 +414,14 @@ return null;
 malli.impl.regex.item_decoder = (function malli$impl$regex$item_decoder(decode,valid_QMARK_){
 return (function (_,___$1,coll_STAR_,pos,coll,k){
 if(cljs.core.seq(coll)){
-var v = (function (){var G__11178 = cljs.core.first(coll);
-return (decode.cljs$core$IFn$_invoke$arity$1 ? decode.cljs$core$IFn$_invoke$arity$1(G__11178) : decode.call(null,G__11178));
+var v = (function (){var G__11181 = cljs.core.first(coll);
+return (decode.cljs$core$IFn$_invoke$arity$1 ? decode.cljs$core$IFn$_invoke$arity$1(G__11181) : decode.call(null,G__11181));
 })();
 if(cljs.core.truth_((valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? valid_QMARK_.cljs$core$IFn$_invoke$arity$1(v) : valid_QMARK_.call(null,v)))){
-var G__11179 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,v);
-var G__11180 = (pos + (1));
-var G__11181 = cljs.core.rest(coll);
-return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11179,G__11180,G__11181) : k.call(null,G__11179,G__11180,G__11181));
+var G__11182 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,v);
+var G__11183 = (pos + (1));
+var G__11184 = cljs.core.rest(coll);
+return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11182,G__11183,G__11184) : k.call(null,G__11182,G__11183,G__11184));
 } else {
 return null;
 }
@@ -493,17 +493,17 @@ return cljs.core.PersistentVector.EMPTY;
 });
 malli.impl.regex.fmap_parser = (function malli$impl$regex$fmap_parser(f,p){
 return (function (driver,regs,pos,coll,k){
-var G__11192 = driver;
-var G__11193 = regs;
-var G__11194 = pos;
-var G__11195 = coll;
-var G__11196 = (function (v,pos__$1,coll__$1){
-var G__11197 = (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v));
-var G__11198 = pos__$1;
-var G__11199 = coll__$1;
-return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11197,G__11198,G__11199) : k.call(null,G__11197,G__11198,G__11199));
+var G__11189 = driver;
+var G__11190 = regs;
+var G__11191 = pos;
+var G__11192 = coll;
+var G__11193 = (function (v,pos__$1,coll__$1){
+var G__11194 = (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v));
+var G__11195 = pos__$1;
+var G__11196 = coll__$1;
+return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11194,G__11195,G__11196) : k.call(null,G__11194,G__11195,G__11196));
 });
-return (p.cljs$core$IFn$_invoke$arity$5 ? p.cljs$core$IFn$_invoke$arity$5(G__11192,G__11193,G__11194,G__11195,G__11196) : p.call(null,G__11192,G__11193,G__11194,G__11195,G__11196));
+return (p.cljs$core$IFn$_invoke$arity$5 ? p.cljs$core$IFn$_invoke$arity$5(G__11189,G__11190,G__11191,G__11192,G__11193) : p.call(null,G__11189,G__11190,G__11191,G__11192,G__11193));
 });
 });
 malli.impl.regex.entry__GT_regex = (function malli$impl$regex$entry__GT_regex(_QMARK_kr){
@@ -514,8 +514,8 @@ return _QMARK_kr;
 }
 });
 malli.impl.regex.cat_validator = (function malli$impl$regex$cat_validator(var_args){
-var G__11206 = arguments.length;
-switch (G__11206) {
+var G__11200 = arguments.length;
+switch (G__11200) {
 case 0:
 return malli.impl.regex.cat_validator.cljs$core$IFn$_invoke$arity$0();
 
@@ -552,31 +552,31 @@ return (k.cljs$core$IFn$_invoke$arity$2 ? k.cljs$core$IFn$_invoke$arity$2(pos,co
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,_QMARK_kr__$1){
 var r_STAR_ = malli.impl.regex.entry__GT_regex(_QMARK_kr__$1);
 return (function (driver,regs,pos,coll,k){
-var G__11210 = driver;
-var G__11211 = regs;
-var G__11212 = pos;
-var G__11213 = coll;
-var G__11214 = (function (pos__$1,coll__$1){
+var G__11204 = driver;
+var G__11205 = regs;
+var G__11206 = pos;
+var G__11207 = coll;
+var G__11208 = (function (pos__$1,coll__$1){
 return (r_STAR_.cljs$core$IFn$_invoke$arity$5 ? r_STAR_.cljs$core$IFn$_invoke$arity$5(driver,regs,pos__$1,coll__$1,k) : r_STAR_.call(null,driver,regs,pos__$1,coll__$1,k));
 });
-return (acc.cljs$core$IFn$_invoke$arity$5 ? acc.cljs$core$IFn$_invoke$arity$5(G__11210,G__11211,G__11212,G__11213,G__11214) : acc.call(null,G__11210,G__11211,G__11212,G__11213,G__11214));
+return (acc.cljs$core$IFn$_invoke$arity$5 ? acc.cljs$core$IFn$_invoke$arity$5(G__11204,G__11205,G__11206,G__11207,G__11208) : acc.call(null,G__11204,G__11205,G__11206,G__11207,G__11208));
 });
 }),malli.impl.regex.entry__GT_regex(_QMARK_kr),_QMARK_krs);
 }));
 
 /** @this {Function} */
-(malli.impl.regex.cat_validator.cljs$lang$applyTo = (function (seq11204){
-var G__11205 = cljs.core.first(seq11204);
-var seq11204__$1 = cljs.core.next(seq11204);
+(malli.impl.regex.cat_validator.cljs$lang$applyTo = (function (seq11198){
+var G__11199 = cljs.core.first(seq11198);
+var seq11198__$1 = cljs.core.next(seq11198);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11205,seq11204__$1);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11199,seq11198__$1);
 }));
 
 (malli.impl.regex.cat_validator.cljs$lang$maxFixedArity = (1));
 
 malli.impl.regex.cat_explainer = (function malli$impl$regex$cat_explainer(var_args){
-var G__11218 = arguments.length;
-switch (G__11218) {
+var G__11212 = arguments.length;
+switch (G__11212) {
 case 0:
 return malli.impl.regex.cat_explainer.cljs$core$IFn$_invoke$arity$0();
 
@@ -626,11 +626,11 @@ return (acc.cljs$core$IFn$_invoke$arity$5 ? acc.cljs$core$IFn$_invoke$arity$5(G_
 }));
 
 /** @this {Function} */
-(malli.impl.regex.cat_explainer.cljs$lang$applyTo = (function (seq11216){
-var G__11217 = cljs.core.first(seq11216);
-var seq11216__$1 = cljs.core.next(seq11216);
+(malli.impl.regex.cat_explainer.cljs$lang$applyTo = (function (seq11210){
+var G__11211 = cljs.core.first(seq11210);
+var seq11210__$1 = cljs.core.next(seq11210);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11217,seq11216__$1);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11211,seq11210__$1);
 }));
 
 (malli.impl.regex.cat_explainer.cljs$lang$maxFixedArity = (1));
@@ -666,42 +666,42 @@ return malli.impl.regex.cat_parser.cljs$core$IFn$_invoke$arity$variadic((argumen
 
 (malli.impl.regex.cat_parser.cljs$core$IFn$_invoke$arity$0 = (function (){
 return (function (_,___$1,pos,coll,k){
-var G__11228 = cljs.core.PersistentVector.EMPTY;
-var G__11229 = pos;
-var G__11230 = coll;
-return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11228,G__11229,G__11230) : k.call(null,G__11228,G__11229,G__11230));
+var G__11229 = cljs.core.PersistentVector.EMPTY;
+var G__11230 = pos;
+var G__11231 = coll;
+return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11229,G__11230,G__11231) : k.call(null,G__11229,G__11230,G__11231));
 });
 }));
 
 (malli.impl.regex.cat_parser.cljs$core$IFn$_invoke$arity$variadic = (function (r,rs){
 var sp = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,r__$1){
 return (function (driver,regs,coll_STAR_,pos,coll,k){
-var G__11231 = driver;
-var G__11232 = regs;
-var G__11233 = pos;
-var G__11234 = coll;
-var G__11235 = (function (v,pos__$1,coll__$1){
-var G__11236 = driver;
-var G__11237 = regs;
-var G__11238 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,v);
-var G__11239 = pos__$1;
-var G__11240 = coll__$1;
-var G__11241 = k;
-return (acc.cljs$core$IFn$_invoke$arity$6 ? acc.cljs$core$IFn$_invoke$arity$6(G__11236,G__11237,G__11238,G__11239,G__11240,G__11241) : acc.call(null,G__11236,G__11237,G__11238,G__11239,G__11240,G__11241));
+var G__11233 = driver;
+var G__11234 = regs;
+var G__11235 = pos;
+var G__11236 = coll;
+var G__11237 = (function (v,pos__$1,coll__$1){
+var G__11238 = driver;
+var G__11239 = regs;
+var G__11240 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(coll_STAR_,v);
+var G__11241 = pos__$1;
+var G__11242 = coll__$1;
+var G__11243 = k;
+return (acc.cljs$core$IFn$_invoke$arity$6 ? acc.cljs$core$IFn$_invoke$arity$6(G__11238,G__11239,G__11240,G__11241,G__11242,G__11243) : acc.call(null,G__11238,G__11239,G__11240,G__11241,G__11242,G__11243));
 });
-return (r__$1.cljs$core$IFn$_invoke$arity$5 ? r__$1.cljs$core$IFn$_invoke$arity$5(G__11231,G__11232,G__11233,G__11234,G__11235) : r__$1.call(null,G__11231,G__11232,G__11233,G__11234,G__11235));
+return (r__$1.cljs$core$IFn$_invoke$arity$5 ? r__$1.cljs$core$IFn$_invoke$arity$5(G__11233,G__11234,G__11235,G__11236,G__11237) : r__$1.call(null,G__11233,G__11234,G__11235,G__11236,G__11237));
 });
 }),(function (_,___$1,coll_STAR_,pos,coll,k){
 return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(coll_STAR_,pos,coll) : k.call(null,coll_STAR_,pos,coll));
 }),cljs.core.reverse(cljs.core.cons(r,rs)));
 return (function (driver,regs,pos,coll,k){
-var G__11242 = driver;
-var G__11243 = regs;
-var G__11244 = cljs.core.PersistentVector.EMPTY;
-var G__11245 = pos;
-var G__11246 = coll;
-var G__11247 = k;
-return (sp.cljs$core$IFn$_invoke$arity$6 ? sp.cljs$core$IFn$_invoke$arity$6(G__11242,G__11243,G__11244,G__11245,G__11246,G__11247) : sp.call(null,G__11242,G__11243,G__11244,G__11245,G__11246,G__11247));
+var G__11244 = driver;
+var G__11245 = regs;
+var G__11246 = cljs.core.PersistentVector.EMPTY;
+var G__11247 = pos;
+var G__11248 = coll;
+var G__11249 = k;
+return (sp.cljs$core$IFn$_invoke$arity$6 ? sp.cljs$core$IFn$_invoke$arity$6(G__11244,G__11245,G__11246,G__11247,G__11248,G__11249) : sp.call(null,G__11244,G__11245,G__11246,G__11247,G__11248,G__11249));
 });
 }));
 
@@ -716,8 +716,8 @@ return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11226,seq11225
 (malli.impl.regex.cat_parser.cljs$lang$maxFixedArity = (1));
 
 malli.impl.regex.catn_parser = (function malli$impl$regex$catn_parser(var_args){
-var G__11251 = arguments.length;
-switch (G__11251) {
+var G__11253 = arguments.length;
+switch (G__11253) {
 case 0:
 return malli.impl.regex.catn_parser.cljs$core$IFn$_invoke$arity$0();
 
@@ -746,54 +746,54 @@ return malli.impl.regex.catn_parser.cljs$core$IFn$_invoke$arity$variadic((argume
 
 (malli.impl.regex.catn_parser.cljs$core$IFn$_invoke$arity$0 = (function (){
 return (function (_,___$1,pos,coll,k){
-var G__11252 = cljs.core.PersistentArrayMap.EMPTY;
-var G__11253 = pos;
-var G__11254 = coll;
-return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11252,G__11253,G__11254) : k.call(null,G__11252,G__11253,G__11254));
+var G__11257 = cljs.core.PersistentArrayMap.EMPTY;
+var G__11258 = pos;
+var G__11259 = coll;
+return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(G__11257,G__11258,G__11259) : k.call(null,G__11257,G__11258,G__11259));
 });
 }));
 
 (malli.impl.regex.catn_parser.cljs$core$IFn$_invoke$arity$variadic = (function (kr,krs){
-var sp = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__11256){
-var vec__11258 = p__11256;
-var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__11258,(0),null);
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__11258,(1),null);
+var sp = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__11260){
+var vec__11261 = p__11260;
+var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__11261,(0),null);
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__11261,(1),null);
 return (function (driver,regs,m,pos,coll,k){
-var G__11261 = driver;
-var G__11262 = regs;
-var G__11263 = pos;
-var G__11264 = coll;
-var G__11265 = (function (v,pos__$1,coll__$1){
-var G__11266 = driver;
-var G__11267 = regs;
-var G__11268 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,tag,v);
-var G__11269 = pos__$1;
-var G__11270 = coll__$1;
-var G__11271 = k;
-return (acc.cljs$core$IFn$_invoke$arity$6 ? acc.cljs$core$IFn$_invoke$arity$6(G__11266,G__11267,G__11268,G__11269,G__11270,G__11271) : acc.call(null,G__11266,G__11267,G__11268,G__11269,G__11270,G__11271));
+var G__11264 = driver;
+var G__11265 = regs;
+var G__11266 = pos;
+var G__11267 = coll;
+var G__11268 = (function (v,pos__$1,coll__$1){
+var G__11269 = driver;
+var G__11270 = regs;
+var G__11271 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,tag,v);
+var G__11272 = pos__$1;
+var G__11273 = coll__$1;
+var G__11274 = k;
+return (acc.cljs$core$IFn$_invoke$arity$6 ? acc.cljs$core$IFn$_invoke$arity$6(G__11269,G__11270,G__11271,G__11272,G__11273,G__11274) : acc.call(null,G__11269,G__11270,G__11271,G__11272,G__11273,G__11274));
 });
-return (r.cljs$core$IFn$_invoke$arity$5 ? r.cljs$core$IFn$_invoke$arity$5(G__11261,G__11262,G__11263,G__11264,G__11265) : r.call(null,G__11261,G__11262,G__11263,G__11264,G__11265));
+return (r.cljs$core$IFn$_invoke$arity$5 ? r.cljs$core$IFn$_invoke$arity$5(G__11264,G__11265,G__11266,G__11267,G__11268) : r.call(null,G__11264,G__11265,G__11266,G__11267,G__11268));
 });
 }),(function (_,___$1,m,pos,coll,k){
 return (k.cljs$core$IFn$_invoke$arity$3 ? k.cljs$core$IFn$_invoke$arity$3(m,pos,coll) : k.call(null,m,pos,coll));
 }),cljs.core.reverse(cljs.core.cons(kr,krs)));
 return (function (driver,regs,pos,coll,k){
-var G__11272 = driver;
-var G__11273 = regs;
-var G__11274 = cljs.core.PersistentArrayMap.EMPTY;
-var G__11275 = pos;
-var G__11276 = coll;
-var G__11277 = k;
-return (sp.cljs$core$IFn$_invoke$arity$6 ? sp.cljs$core$IFn$_invoke$arity$6(G__11272,G__11273,G__11274,G__11275,G__11276,G__11277) : sp.call(null,G__11272,G__11273,G__11274,G__11275,G__11276,G__11277));
+var G__11275 = driver;
+var G__11276 = regs;
+var G__11277 = cljs.core.PersistentArrayMap.EMPTY;
+var G__11278 = pos;
+var G__11279 = coll;
+var G__11280 = k;
+return (sp.cljs$core$IFn$_invoke$arity$6 ? sp.cljs$core$IFn$_invoke$arity$6(G__11275,G__11276,G__11277,G__11278,G__11279,G__11280) : sp.call(null,G__11275,G__11276,G__11277,G__11278,G__11279,G__11280));
 });
 }));
 
 /** @this {Function} */
-(malli.impl.regex.catn_parser.cljs$lang$applyTo = (function (seq11249){
-var G__11250 = cljs.core.first(seq11249);
-var seq11249__$1 = cljs.core.next(seq11249);
+(malli.impl.regex.catn_parser.cljs$lang$applyTo = (function (seq11251){
+var G__11252 = cljs.core.first(seq11251);
+var seq11251__$1 = cljs.core.next(seq11251);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11250,seq11249__$1);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__11252,seq11251__$1);
 }));
 
 (malli.impl.regex.catn_parser.cljs$lang$maxFixedArity = (1));
@@ -823,8 +823,8 @@ var unparsers__$1 = cljs.core.vec(unparsers);
 return (function (tup){
 if(((cljs.core.vector_QMARK_(tup)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(tup),cljs.core.count(unparsers__$1))))){
 return cljs.core.reduce_kv((function (coll,i,unparser){
-return malli.impl.util._map_valid((function (p1__11278_SHARP_){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(coll,p1__11278_SHARP_);
+return malli.impl.util._map_valid((function (p1__11281_SHARP_){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(coll,p1__11281_SHARP_);
 }),(function (){var G__11283 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(tup,i);
 return (unparser.cljs$core$IFn$_invoke$arity$1 ? unparser.cljs$core$IFn$_invoke$arity$1(G__11283) : unparser.call(null,G__11283));
 })());
@@ -838,9 +838,9 @@ return new cljs.core.Keyword("malli.core","invalid","malli.core/invalid",3620809
 (malli.impl.regex.cat_unparser.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(malli.impl.regex.cat_unparser.cljs$lang$applyTo = (function (seq11279){
+(malli.impl.regex.cat_unparser.cljs$lang$applyTo = (function (seq11282){
 var self__4806__auto__ = this;
-return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq11279));
+return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq11282));
 }));
 
 malli.impl.regex.catn_unparser = (function malli$impl$regex$catn_unparser(var_args){
@@ -1701,10 +1701,10 @@ if(or__4212__auto__){
 return or__4212__auto__;
 } else {
 var collisions__$1 = (collisions + (1));
-var G__11514 = ((i + collisions__$1) & max_index);
-var G__11515 = collisions__$1;
-i = G__11514;
-collisions = G__11515;
+var G__11513 = ((i + collisions__$1) & max_index);
+var G__11514 = collisions__$1;
+i = G__11513;
+collisions = G__11514;
 continue;
 }
 }
@@ -1924,14 +1924,14 @@ return (function (coll){
 var and__4210__auto__ = cljs.core.sequential_QMARK_(coll);
 if(and__4210__auto__){
 var driver = (new malli.impl.regex.CheckDriver(false,malli.impl.regex.make_stack(),malli.impl.regex.make_cache()));
-var G__11423_11520 = driver;
-var G__11424_11521 = cljs.core.List.EMPTY;
-var G__11425_11522 = (0);
-var G__11426_11523 = coll;
-var G__11427_11524 = (function (_,___$1){
+var G__11423_11515 = driver;
+var G__11424_11516 = cljs.core.List.EMPTY;
+var G__11425_11517 = (0);
+var G__11426_11518 = coll;
+var G__11427_11519 = (function (_,___$1){
 return driver.malli$impl$regex$Driver$succeed_BANG_$arity$1(null);
 });
-(p__$1.cljs$core$IFn$_invoke$arity$5 ? p__$1.cljs$core$IFn$_invoke$arity$5(G__11423_11520,G__11424_11521,G__11425_11522,G__11426_11523,G__11427_11524) : p__$1.call(null,G__11423_11520,G__11424_11521,G__11425_11522,G__11426_11523,G__11427_11524));
+(p__$1.cljs$core$IFn$_invoke$arity$5 ? p__$1.cljs$core$IFn$_invoke$arity$5(G__11423_11515,G__11424_11516,G__11425_11517,G__11426_11518,G__11427_11519) : p__$1.call(null,G__11423_11515,G__11424_11516,G__11425_11517,G__11426_11518,G__11427_11519));
 
 var or__4212__auto__ = driver.malli$impl$regex$Driver$succeeded_QMARK_$arity$1(null);
 if(cljs.core.truth_(or__4212__auto__)){
@@ -2071,14 +2071,14 @@ return (function (coll,in$,errors){
 if(cljs.core.sequential_QMARK_(coll)){
 var pos = (0);
 var driver = (new malli.impl.regex.ExplanationDriver(false,malli.impl.regex.make_stack(),malli.impl.regex.make_cache(),in$,pos,cljs.core.PersistentVector.EMPTY));
-var G__11428_11525 = driver;
-var G__11429_11526 = cljs.core.List.EMPTY;
-var G__11430_11527 = pos;
-var G__11431_11528 = coll;
-var G__11432_11529 = (function (_,___$1){
+var G__11428_11521 = driver;
+var G__11429_11522 = cljs.core.List.EMPTY;
+var G__11430_11523 = pos;
+var G__11431_11524 = coll;
+var G__11432_11525 = (function (_,___$1){
 return driver.malli$impl$regex$Driver$succeed_BANG_$arity$1(null);
 });
-(p__$1.cljs$core$IFn$_invoke$arity$5 ? p__$1.cljs$core$IFn$_invoke$arity$5(G__11428_11525,G__11429_11526,G__11430_11527,G__11431_11528,G__11432_11529) : p__$1.call(null,G__11428_11525,G__11429_11526,G__11430_11527,G__11431_11528,G__11432_11529));
+(p__$1.cljs$core$IFn$_invoke$arity$5 ? p__$1.cljs$core$IFn$_invoke$arity$5(G__11428_11521,G__11429_11522,G__11430_11523,G__11431_11524,G__11432_11525) : p__$1.call(null,G__11428_11521,G__11429_11522,G__11430_11523,G__11431_11524,G__11432_11525));
 
 if(cljs.core.truth_(driver.malli$impl$regex$Driver$succeeded_QMARK_$arity$1(null))){
 return errors;
@@ -2144,15 +2144,15 @@ var p__$1 = malli.impl.regex.cat_transformer.cljs$core$IFn$_invoke$arity$variadi
 return (function (coll){
 if(cljs.core.sequential_QMARK_(coll)){
 var driver = (new malli.impl.regex.ParseDriver(false,malli.impl.regex.make_stack(),malli.impl.regex.make_cache(),null));
-var G__11433_11530 = driver;
-var G__11434_11531 = cljs.core.List.EMPTY;
-var G__11435_11532 = cljs.core.PersistentVector.EMPTY;
-var G__11436_11533 = (0);
-var G__11437_11534 = coll;
-var G__11438_11535 = (function (coll_STAR_,_,___$1){
+var G__11433_11526 = driver;
+var G__11434_11527 = cljs.core.List.EMPTY;
+var G__11435_11528 = cljs.core.PersistentVector.EMPTY;
+var G__11436_11529 = (0);
+var G__11437_11530 = coll;
+var G__11438_11531 = (function (coll_STAR_,_,___$1){
 return driver.malli$impl$regex$IParseDriver$succeed_with_BANG_$arity$2(null,coll_STAR_);
 });
-(p__$1.cljs$core$IFn$_invoke$arity$6 ? p__$1.cljs$core$IFn$_invoke$arity$6(G__11433_11530,G__11434_11531,G__11435_11532,G__11436_11533,G__11437_11534,G__11438_11535) : p__$1.call(null,G__11433_11530,G__11434_11531,G__11435_11532,G__11436_11533,G__11437_11534,G__11438_11535));
+(p__$1.cljs$core$IFn$_invoke$arity$6 ? p__$1.cljs$core$IFn$_invoke$arity$6(G__11433_11526,G__11434_11527,G__11435_11528,G__11436_11529,G__11437_11530,G__11438_11531) : p__$1.call(null,G__11433_11526,G__11434_11527,G__11435_11528,G__11436_11529,G__11437_11530,G__11438_11531));
 
 if(cljs.core.truth_(driver.malli$impl$regex$Driver$succeeded_QMARK_$arity$1(null))){
 return driver.malli$impl$regex$IParseDriver$success_result$arity$1(null);

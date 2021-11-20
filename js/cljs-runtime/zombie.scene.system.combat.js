@@ -14,14 +14,14 @@ var m = chunk__13046.cljs$core$IIndexed$_nth$arity$2(null,i__13048);
 m.setValues(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"emissive","emissive",-761267227),"white",new cljs.core.Keyword(null,"emissiveIntensity","emissiveIntensity",2119800890),p1__13044_SHARP_.x], null)));
 
 
-var G__13057 = seq__13045;
-var G__13058 = chunk__13046;
-var G__13059 = count__13047;
-var G__13060 = (i__13048 + (1));
-seq__13045 = G__13057;
-chunk__13046 = G__13058;
-count__13047 = G__13059;
-i__13048 = G__13060;
+var G__13059 = seq__13045;
+var G__13060 = chunk__13046;
+var G__13061 = count__13047;
+var G__13062 = (i__13048 + (1));
+seq__13045 = G__13059;
+chunk__13046 = G__13060;
+count__13047 = G__13061;
+i__13048 = G__13062;
 continue;
 } else {
 var temp__5753__auto__ = cljs.core.seq(seq__13045);
@@ -29,28 +29,28 @@ if(temp__5753__auto__){
 var seq__13045__$1 = temp__5753__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__13045__$1)){
 var c__4638__auto__ = cljs.core.chunk_first(seq__13045__$1);
-var G__13061 = cljs.core.chunk_rest(seq__13045__$1);
-var G__13062 = c__4638__auto__;
-var G__13063 = cljs.core.count(c__4638__auto__);
-var G__13064 = (0);
-seq__13045 = G__13061;
-chunk__13046 = G__13062;
-count__13047 = G__13063;
-i__13048 = G__13064;
+var G__13064 = cljs.core.chunk_rest(seq__13045__$1);
+var G__13065 = c__4638__auto__;
+var G__13066 = cljs.core.count(c__4638__auto__);
+var G__13067 = (0);
+seq__13045 = G__13064;
+chunk__13046 = G__13065;
+count__13047 = G__13066;
+i__13048 = G__13067;
 continue;
 } else {
 var m = cljs.core.first(seq__13045__$1);
 m.setValues(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"emissive","emissive",-761267227),"white",new cljs.core.Keyword(null,"emissiveIntensity","emissiveIntensity",2119800890),p1__13044_SHARP_.x], null)));
 
 
-var G__13065 = cljs.core.next(seq__13045__$1);
-var G__13066 = null;
-var G__13067 = (0);
-var G__13068 = (0);
-seq__13045 = G__13065;
-chunk__13046 = G__13066;
-count__13047 = G__13067;
-i__13048 = G__13068;
+var G__13068 = cljs.core.next(seq__13045__$1);
+var G__13069 = null;
+var G__13070 = (0);
+var G__13071 = (0);
+seq__13045 = G__13068;
+chunk__13046 = G__13069;
+count__13047 = G__13070;
+i__13048 = G__13071;
 continue;
 }
 } else {

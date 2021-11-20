@@ -65,19 +65,19 @@ object.position.setZ(local_pos_13204.z);
 
 if(cljs.core.truth_(ignore_rotation_QMARK_)){
 } else {
-var angle_13205 = (body.angle - angle_offset);
-object.setRotationFromAxisAngle(zombie.scene.system.physics.core.up,angle_13205);
+var angle_13207 = (body.angle - angle_offset);
+object.setRotationFromAxisAngle(zombie.scene.system.physics.core.up,angle_13207);
 }
 
 
-var G__13207 = seq__13146;
-var G__13208 = chunk__13147;
-var G__13209 = count__13148;
-var G__13210 = (i__13149 + (1));
-seq__13146 = G__13207;
-chunk__13147 = G__13208;
-count__13148 = G__13209;
-i__13149 = G__13210;
+var G__13208 = seq__13146;
+var G__13209 = chunk__13147;
+var G__13210 = count__13148;
+var G__13211 = (i__13149 + (1));
+seq__13146 = G__13208;
+chunk__13147 = G__13209;
+count__13148 = G__13210;
+i__13149 = G__13211;
 continue;
 } else {
 var temp__5753__auto__ = cljs.core.seq(seq__13146);
@@ -282,14 +282,14 @@ var cb_13250 = temp__5753__auto___13249;
 }
 
 
-var G__13255 = seq__13191;
-var G__13256 = chunk__13192;
-var G__13257 = count__13193;
-var G__13258 = (i__13194 + (1));
-seq__13191 = G__13255;
-chunk__13192 = G__13256;
-count__13193 = G__13257;
-i__13194 = G__13258;
+var G__13251 = seq__13191;
+var G__13252 = chunk__13192;
+var G__13253 = count__13193;
+var G__13254 = (i__13194 + (1));
+seq__13191 = G__13251;
+chunk__13192 = G__13252;
+count__13193 = G__13253;
+i__13194 = G__13254;
 continue;
 } else {
 var temp__5753__auto__ = cljs.core.seq(seq__13191);
@@ -297,42 +297,42 @@ if(temp__5753__auto__){
 var seq__13191__$1 = temp__5753__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__13191__$1)){
 var c__4638__auto__ = cljs.core.chunk_first(seq__13191__$1);
-var G__13260 = cljs.core.chunk_rest(seq__13191__$1);
-var G__13261 = c__4638__auto__;
-var G__13262 = cljs.core.count(c__4638__auto__);
-var G__13263 = (0);
-seq__13191 = G__13260;
-chunk__13192 = G__13261;
-count__13193 = G__13262;
-i__13194 = G__13263;
+var G__13255 = cljs.core.chunk_rest(seq__13191__$1);
+var G__13256 = c__4638__auto__;
+var G__13257 = cljs.core.count(c__4638__auto__);
+var G__13258 = (0);
+seq__13191 = G__13255;
+chunk__13192 = G__13256;
+count__13193 = G__13257;
+i__13194 = G__13258;
 continue;
 } else {
 var p = cljs.core.first(seq__13191__$1);
-var a_13264 = p.bodyA;
-var b_13265 = p.bodyB;
-var temp__5753__auto___13266__$1 = a_13264.onCollisionStart;
-if(cljs.core.truth_(temp__5753__auto___13266__$1)){
-var cb_13267 = temp__5753__auto___13266__$1;
-(cb_13267.cljs$core$IFn$_invoke$arity$0 ? cb_13267.cljs$core$IFn$_invoke$arity$0() : cb_13267.call(null));
+var a_13259 = p.bodyA;
+var b_13260 = p.bodyB;
+var temp__5753__auto___13261__$1 = a_13259.onCollisionStart;
+if(cljs.core.truth_(temp__5753__auto___13261__$1)){
+var cb_13266 = temp__5753__auto___13261__$1;
+(cb_13266.cljs$core$IFn$_invoke$arity$0 ? cb_13266.cljs$core$IFn$_invoke$arity$0() : cb_13266.call(null));
 } else {
 }
 
-var temp__5753__auto___13268__$1 = b_13265.onCollisionStart;
-if(cljs.core.truth_(temp__5753__auto___13268__$1)){
-var cb_13269 = temp__5753__auto___13268__$1;
-(cb_13269.cljs$core$IFn$_invoke$arity$0 ? cb_13269.cljs$core$IFn$_invoke$arity$0() : cb_13269.call(null));
+var temp__5753__auto___13267__$1 = b_13260.onCollisionStart;
+if(cljs.core.truth_(temp__5753__auto___13267__$1)){
+var cb_13268 = temp__5753__auto___13267__$1;
+(cb_13268.cljs$core$IFn$_invoke$arity$0 ? cb_13268.cljs$core$IFn$_invoke$arity$0() : cb_13268.call(null));
 } else {
 }
 
 
-var G__13270 = cljs.core.next(seq__13191__$1);
-var G__13271 = null;
+var G__13269 = cljs.core.next(seq__13191__$1);
+var G__13270 = null;
+var G__13271 = (0);
 var G__13272 = (0);
-var G__13273 = (0);
-seq__13191 = G__13270;
-chunk__13192 = G__13271;
-count__13193 = G__13272;
-i__13194 = G__13273;
+seq__13191 = G__13269;
+chunk__13192 = G__13270;
+count__13193 = G__13271;
+i__13194 = G__13272;
 continue;
 }
 } else {

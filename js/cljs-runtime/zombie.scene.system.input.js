@@ -17,11 +17,11 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 return null;
 }
 });
-zombie.scene.system.input.normalized__GT_world_position = (function zombie$scene$system$input$normalized__GT_world_position(camera,p__10876){
-var map__10877 = p__10876;
-var map__10877__$1 = cljs.core.__destructure_map(map__10877);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10877__$1,new cljs.core.Keyword(null,"x","x",2099068185));
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10877__$1,new cljs.core.Keyword(null,"y","y",-1757859776));
+zombie.scene.system.input.normalized__GT_world_position = (function zombie$scene$system$input$normalized__GT_world_position(camera,p__10856){
+var map__10861 = p__10856;
+var map__10861__$1 = cljs.core.__destructure_map(map__10861);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10861__$1,new cljs.core.Keyword(null,"x","x",2099068185));
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10861__$1,new cljs.core.Keyword(null,"y","y",-1757859776));
 var origin = zombie.scene.system.input.v1.set(x,y,(-1)).unproject(camera);
 var dir = camera.getWorldDirection(zombie.scene.system.input.v2);
 var ray = zombie.scene.system.input.r1.set(origin,dir);
@@ -121,9 +121,9 @@ zombie.scene.system.input.on_key_down = (function zombie$scene$system$input$on_k
 var key_code = evt.keyCode;
 var temp__5753__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(zombie.scene.system.input.keycode__GT_axis,key_code);
 if(cljs.core.truth_(temp__5753__auto__)){
-var vec__10893 = temp__5753__auto__;
-var type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10893,(0),null);
-var axis = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10893,(1),null);
+var vec__10891 = temp__5753__auto__;
+var type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10891,(0),null);
+var axis = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10891,(1),null);
 if(cljs.core.truth_(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(local_state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keys","keys",1068423698),key_code], null)))){
 return null;
 } else {
@@ -138,9 +138,9 @@ return null;
 zombie.scene.system.input.on_key_up = (function zombie$scene$system$input$on_key_up(bus,local_state,_canvas,evt){
 var temp__5753__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(zombie.scene.system.input.keycode__GT_axis,evt.keyCode);
 if(cljs.core.truth_(temp__5753__auto__)){
-var vec__10898 = temp__5753__auto__;
-var type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10898,(0),null);
-var axis = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10898,(1),null);
+var vec__10894 = temp__5753__auto__;
+var type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10894,(0),null);
+var axis = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10894,(1),null);
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keys","keys",1068423698),evt.keyCode], null),false);
 
 return zombie.util.messaging.send(bus,new cljs.core.Keyword(null,"receiving-entities","receiving-entities",2110753592).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(local_state)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("input","axis-update","input/axis-update",-159028349),type], null),zombie.scene.system.input.dec_axis_BANG_(local_state,type,axis));
@@ -156,57 +156,57 @@ return false;
 })], null);
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(local_state,cljs.core.assoc,new cljs.core.Keyword(null,"handlers","handlers",79528781),handler_map);
 
-var seq__10907 = cljs.core.seq(handler_map);
-var chunk__10908 = null;
-var count__10909 = (0);
-var i__10910 = (0);
+var seq__10899 = cljs.core.seq(handler_map);
+var chunk__10900 = null;
+var count__10901 = (0);
+var i__10902 = (0);
 while(true){
-if((i__10910 < count__10909)){
-var vec__10926 = chunk__10908.cljs$core$IIndexed$_nth$arity$2(null,i__10910);
-var event_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10926,(0),null);
-var handler_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10926,(1),null);
-canvas.addEventListener(event_name,handler_fn);
-
-
-var G__10996 = seq__10907;
-var G__10997 = chunk__10908;
-var G__10998 = count__10909;
-var G__10999 = (i__10910 + (1));
-seq__10907 = G__10996;
-chunk__10908 = G__10997;
-count__10909 = G__10998;
-i__10910 = G__10999;
-continue;
-} else {
-var temp__5753__auto__ = cljs.core.seq(seq__10907);
-if(temp__5753__auto__){
-var seq__10907__$1 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__10907__$1)){
-var c__4638__auto__ = cljs.core.chunk_first(seq__10907__$1);
-var G__11002 = cljs.core.chunk_rest(seq__10907__$1);
-var G__11003 = c__4638__auto__;
-var G__11004 = cljs.core.count(c__4638__auto__);
-var G__11005 = (0);
-seq__10907 = G__11002;
-chunk__10908 = G__11003;
-count__10909 = G__11004;
-i__10910 = G__11005;
-continue;
-} else {
-var vec__10929 = cljs.core.first(seq__10907__$1);
+if((i__10902 < count__10901)){
+var vec__10929 = chunk__10900.cljs$core$IIndexed$_nth$arity$2(null,i__10902);
 var event_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10929,(0),null);
 var handler_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10929,(1),null);
 canvas.addEventListener(event_name,handler_fn);
 
 
-var G__11006 = cljs.core.next(seq__10907__$1);
-var G__11007 = null;
-var G__11008 = (0);
-var G__11009 = (0);
-seq__10907 = G__11006;
-chunk__10908 = G__11007;
-count__10909 = G__11008;
-i__10910 = G__11009;
+var G__10993 = seq__10899;
+var G__10994 = chunk__10900;
+var G__10995 = count__10901;
+var G__10996 = (i__10902 + (1));
+seq__10899 = G__10993;
+chunk__10900 = G__10994;
+count__10901 = G__10995;
+i__10902 = G__10996;
+continue;
+} else {
+var temp__5753__auto__ = cljs.core.seq(seq__10899);
+if(temp__5753__auto__){
+var seq__10899__$1 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__10899__$1)){
+var c__4638__auto__ = cljs.core.chunk_first(seq__10899__$1);
+var G__10997 = cljs.core.chunk_rest(seq__10899__$1);
+var G__10998 = c__4638__auto__;
+var G__10999 = cljs.core.count(c__4638__auto__);
+var G__11000 = (0);
+seq__10899 = G__10997;
+chunk__10900 = G__10998;
+count__10901 = G__10999;
+i__10902 = G__11000;
+continue;
+} else {
+var vec__10932 = cljs.core.first(seq__10899__$1);
+var event_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10932,(0),null);
+var handler_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10932,(1),null);
+canvas.addEventListener(event_name,handler_fn);
+
+
+var G__11001 = cljs.core.next(seq__10899__$1);
+var G__11002 = null;
+var G__11003 = (0);
+var G__11004 = (0);
+seq__10899 = G__11001;
+chunk__10900 = G__11002;
+count__10901 = G__11003;
+i__10902 = G__11004;
 continue;
 }
 } else {
@@ -220,57 +220,57 @@ zombie.scene.system.input.remove_listeners_BANG_ = (function zombie$scene$system
 var temp__5753__auto__ = new cljs.core.Keyword(null,"handlers","handlers",79528781).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(local_state));
 if(cljs.core.truth_(temp__5753__auto__)){
 var handlers = temp__5753__auto__;
-var seq__10935_11011 = cljs.core.seq(handlers);
-var chunk__10936_11012 = null;
-var count__10937_11013 = (0);
-var i__10938_11014 = (0);
+var seq__10943_11005 = cljs.core.seq(handlers);
+var chunk__10944_11006 = null;
+var count__10945_11007 = (0);
+var i__10946_11008 = (0);
 while(true){
-if((i__10938_11014 < count__10937_11013)){
-var vec__10945_11015 = chunk__10936_11012.cljs$core$IIndexed$_nth$arity$2(null,i__10938_11014);
-var event_name_11016 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10945_11015,(0),null);
-var handler_fn_11017 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10945_11015,(1),null);
-canvas.removeEventListener(event_name_11016,handler_fn_11017);
+if((i__10946_11008 < count__10945_11007)){
+var vec__10957_11009 = chunk__10944_11006.cljs$core$IIndexed$_nth$arity$2(null,i__10946_11008);
+var event_name_11010 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10957_11009,(0),null);
+var handler_fn_11011 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10957_11009,(1),null);
+canvas.removeEventListener(event_name_11010,handler_fn_11011);
 
 
-var G__11018 = seq__10935_11011;
-var G__11019 = chunk__10936_11012;
-var G__11020 = count__10937_11013;
-var G__11021 = (i__10938_11014 + (1));
-seq__10935_11011 = G__11018;
-chunk__10936_11012 = G__11019;
-count__10937_11013 = G__11020;
-i__10938_11014 = G__11021;
+var G__11012 = seq__10943_11005;
+var G__11013 = chunk__10944_11006;
+var G__11014 = count__10945_11007;
+var G__11015 = (i__10946_11008 + (1));
+seq__10943_11005 = G__11012;
+chunk__10944_11006 = G__11013;
+count__10945_11007 = G__11014;
+i__10946_11008 = G__11015;
 continue;
 } else {
-var temp__5753__auto___11022__$1 = cljs.core.seq(seq__10935_11011);
-if(temp__5753__auto___11022__$1){
-var seq__10935_11023__$1 = temp__5753__auto___11022__$1;
-if(cljs.core.chunked_seq_QMARK_(seq__10935_11023__$1)){
-var c__4638__auto___11024 = cljs.core.chunk_first(seq__10935_11023__$1);
-var G__11025 = cljs.core.chunk_rest(seq__10935_11023__$1);
-var G__11026 = c__4638__auto___11024;
-var G__11027 = cljs.core.count(c__4638__auto___11024);
+var temp__5753__auto___11016__$1 = cljs.core.seq(seq__10943_11005);
+if(temp__5753__auto___11016__$1){
+var seq__10943_11017__$1 = temp__5753__auto___11016__$1;
+if(cljs.core.chunked_seq_QMARK_(seq__10943_11017__$1)){
+var c__4638__auto___11018 = cljs.core.chunk_first(seq__10943_11017__$1);
+var G__11019 = cljs.core.chunk_rest(seq__10943_11017__$1);
+var G__11020 = c__4638__auto___11018;
+var G__11021 = cljs.core.count(c__4638__auto___11018);
+var G__11022 = (0);
+seq__10943_11005 = G__11019;
+chunk__10944_11006 = G__11020;
+count__10945_11007 = G__11021;
+i__10946_11008 = G__11022;
+continue;
+} else {
+var vec__10960_11023 = cljs.core.first(seq__10943_11017__$1);
+var event_name_11024 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10960_11023,(0),null);
+var handler_fn_11025 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10960_11023,(1),null);
+canvas.removeEventListener(event_name_11024,handler_fn_11025);
+
+
+var G__11026 = cljs.core.next(seq__10943_11017__$1);
+var G__11027 = null;
 var G__11028 = (0);
-seq__10935_11011 = G__11025;
-chunk__10936_11012 = G__11026;
-count__10937_11013 = G__11027;
-i__10938_11014 = G__11028;
-continue;
-} else {
-var vec__10948_11029 = cljs.core.first(seq__10935_11023__$1);
-var event_name_11030 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10948_11029,(0),null);
-var handler_fn_11031 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__10948_11029,(1),null);
-canvas.removeEventListener(event_name_11030,handler_fn_11031);
-
-
-var G__11033 = cljs.core.next(seq__10935_11023__$1);
-var G__11034 = null;
-var G__11035 = (0);
-var G__11036 = (0);
-seq__10935_11011 = G__11033;
-chunk__10936_11012 = G__11034;
-count__10937_11013 = G__11035;
-i__10938_11014 = G__11036;
+var G__11029 = (0);
+seq__10943_11005 = G__11026;
+chunk__10944_11006 = G__11027;
+count__10945_11007 = G__11028;
+i__10946_11008 = G__11029;
 continue;
 }
 } else {

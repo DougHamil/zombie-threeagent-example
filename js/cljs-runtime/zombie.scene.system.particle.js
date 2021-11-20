@@ -125,10 +125,10 @@ return 1.0;
 })());
 return (new module$node_modules$three_nebula$build$esm$index.Emitter()).setRate((new module$node_modules$three_nebula$build$esm$index.Rate((new module$node_modules$three_nebula$build$esm$index.Span((5),(5))),(new module$node_modules$three_nebula$build$esm$index.Span((1)))))).setInitializers([(new module$node_modules$three_nebula$build$esm$index.Position((new module$node_modules$three_nebula$build$esm$index.PointZone((0),(0))))),(new module$node_modules$three_nebula$build$esm$index.Mass((1))),(new module$node_modules$three_nebula$build$esm$index.Radius(0.2,0.2)),(new module$node_modules$three_nebula$build$esm$index.Life((1))),(new module$node_modules$three_nebula$build$esm$index.RadialVelocity((20),dir,(25)))]).setBehaviours([(new module$node_modules$three_nebula$build$esm$index.Alpha((1),0.0)),(new module$node_modules$three_nebula$build$esm$index.Scale(scale__$1,scale__$1)),(new module$node_modules$three_nebula$build$esm$index.Gravity(0.9)),(new module$node_modules$three_nebula$build$esm$index.Color((new module$node_modules$three$build$three_module.Color((11141120))),(new module$node_modules$three$build$three_module.Color((11141120)))))]);
 }));
-zombie.scene.system.particle.create_emitter.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword(null,"impact-sparks","impact-sparks",-1076645149),(function (p__13019){
-var map__13020 = p__13019;
-var map__13020__$1 = cljs.core.__destructure_map(map__13020);
-var direction = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13020__$1,new cljs.core.Keyword(null,"direction","direction",-633359395));
+zombie.scene.system.particle.create_emitter.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword(null,"impact-sparks","impact-sparks",-1076645149),(function (p__13020){
+var map__13021 = p__13020;
+var map__13021__$1 = cljs.core.__destructure_map(map__13021);
+var direction = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13021__$1,new cljs.core.Keyword(null,"direction","direction",-633359395));
 var dir = zombie.scene.system.particle.tuple__GT_nebula_vector((function (){var or__4212__auto__ = direction;
 if(cljs.core.truth_(or__4212__auto__)){
 return or__4212__auto__;
@@ -138,14 +138,14 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 })());
 return (new module$node_modules$three_nebula$build$esm$index.Emitter()).setRate((new module$node_modules$three_nebula$build$esm$index.Rate((new module$node_modules$three_nebula$build$esm$index.Span((5),(5))),(new module$node_modules$three_nebula$build$esm$index.Span((1)))))).setInitializers([(new module$node_modules$three_nebula$build$esm$index.Position((new module$node_modules$three_nebula$build$esm$index.PointZone((0),(0))))),(new module$node_modules$three_nebula$build$esm$index.Mass((1))),(new module$node_modules$three_nebula$build$esm$index.Radius(0.1,0.1)),(new module$node_modules$three_nebula$build$esm$index.Life(0.2)),(new module$node_modules$three_nebula$build$esm$index.RadialVelocity((20),dir,(20)))]).setBehaviours([(new module$node_modules$three_nebula$build$esm$index.Alpha(0.5,1.0)),(new module$node_modules$three_nebula$build$esm$index.Scale(0.002,0.002)),(new module$node_modules$three_nebula$build$esm$index.Color((new module$node_modules$three$build$three_module.Color((16776960))),(new module$node_modules$three$build$three_module.Color((16776960)))))]);
 }));
-zombie.scene.system.particle.create_emitter.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword(null,"moths","moths",1906733066),(function (p__13021){
-var map__13022 = p__13021;
-var map__13022__$1 = cljs.core.__destructure_map(map__13022);
-var vec__13023 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13022__$1,new cljs.core.Keyword(null,"as","as",1148689641));
-var px = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13023,(0),null);
-var py = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13023,(1),null);
-var pz = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13023,(2),null);
-var position = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13022__$1,new cljs.core.Keyword(null,"position","position",-2011731912));
+zombie.scene.system.particle.create_emitter.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword(null,"moths","moths",1906733066),(function (p__13034){
+var map__13035 = p__13034;
+var map__13035__$1 = cljs.core.__destructure_map(map__13035);
+var vec__13036 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13035__$1,new cljs.core.Keyword(null,"as","as",1148689641));
+var px = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13036,(0),null);
+var py = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13036,(1),null);
+var pz = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13036,(2),null);
+var position = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13035__$1,new cljs.core.Keyword(null,"position","position",-2011731912));
 return (new module$node_modules$three_nebula$build$esm$index.Emitter()).setRate((new module$node_modules$three_nebula$build$esm$index.Rate((new module$node_modules$three_nebula$build$esm$index.Span((1),(1))),(new module$node_modules$three_nebula$build$esm$index.Span(0.2,0.2))))).setInitializers([(new module$node_modules$three_nebula$build$esm$index.Position((new module$node_modules$three_nebula$build$esm$index.SphereZone(px,py,pz,0.5)))),(new module$node_modules$three_nebula$build$esm$index.Radius(0.1,0.1)),(new module$node_modules$three_nebula$build$esm$index.VectorVelocity((new module$node_modules$three_nebula$build$esm$index.Vector3D((0),1.0,(0))),(180))),(new module$node_modules$three_nebula$build$esm$index.Body(zombie.scene.system.particle.create_sprite_body())),(new module$node_modules$three_nebula$build$esm$index.Life(2.5)),(new module$node_modules$three_nebula$build$esm$index.Mass((1)))]).setBehaviours([(new module$node_modules$three_nebula$build$esm$index.Alpha(0.4,0.0)),(new module$node_modules$three_nebula$build$esm$index.Scale(0.08,0.001)),(new module$node_modules$three_nebula$build$esm$index.Rotate(0.5,0.0,(1))),(new module$node_modules$three_nebula$build$esm$index.Attraction(zombie.util.threejs.tuple__GT_vector3(position),0.05,(3))),(new module$node_modules$three_nebula$build$esm$index.Color((new module$node_modules$three$build$three_module.Color((16365568))),(new module$node_modules$three$build$three_module.Color((16365568)))))]);
 }));
 zombie.scene.system.particle.create_emitter.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword(null,"smoke-trail-loop","smoke-trail-loop",-250118063),(function (_){
@@ -174,11 +174,11 @@ this.local_state = local_state;
 });
 (zombie.scene.system.particle.ParticleSystem.prototype.threeagent$system$ISystem$ = cljs.core.PROTOCOL_SENTINEL);
 
-(zombie.scene.system.particle.ParticleSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__13027){
+(zombie.scene.system.particle.ParticleSystem.prototype.threeagent$system$ISystem$init$arity$2 = (function (_,p__13040){
 var self__ = this;
-var map__13028 = p__13027;
-var map__13028__$1 = cljs.core.__destructure_map(map__13028);
-var threejs_scene = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13028__$1,new cljs.core.Keyword(null,"threejs-scene","threejs-scene",754266515));
+var map__13041 = p__13040;
+var map__13041__$1 = cljs.core.__destructure_map(map__13041);
+var threejs_scene = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13041__$1,new cljs.core.Keyword(null,"threejs-scene","threejs-scene",754266515));
 var ___$1 = this;
 var system = zombie.scene.system.particle.create_system(threejs_scene);
 zombie.util.messaging.on(self__.bus,new cljs.core.Keyword("particles","spawn","particles/spawn",282676462),zombie.scene.system.particle.on_spawn_particle_system);

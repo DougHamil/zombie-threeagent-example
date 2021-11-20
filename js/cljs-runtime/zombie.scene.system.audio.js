@@ -17,10 +17,10 @@ return howl.pos(world_pos.x,world_pos.y,world_pos.z,sound_id);
 zombie.scene.system.audio.random_sfx = (function zombie$scene$system$audio$random_sfx(type){
 return cljs.core.rand_nth(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(zombie.state.databases.assets),type));
 });
-zombie.scene.system.audio.play_sound_BANG_ = (function zombie$scene$system$audio$play_sound_BANG_(local_state,obj,p__13298){
-var map__13299 = p__13298;
-var map__13299__$1 = cljs.core.__destructure_map(map__13299);
-var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13299__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+zombie.scene.system.audio.play_sound_BANG_ = (function zombie$scene$system$audio$play_sound_BANG_(local_state,obj,p__13294){
+var map__13295 = p__13294;
+var map__13295__$1 = cljs.core.__destructure_map(map__13295);
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13295__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 var howl = zombie.scene.system.audio.random_sfx(type);
 var sound_id = howl.play();
 return zombie.scene.system.audio.set_to_world_position_BANG_(howl,obj,sound_id);

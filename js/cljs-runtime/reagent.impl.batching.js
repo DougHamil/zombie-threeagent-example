@@ -42,14 +42,14 @@ var n__4695__auto__ = a.length;
 var i = (0);
 while(true){
 if((i < n__4695__auto__)){
-var c_8613 = (a[i]);
-if((c_8613["cljsIsDirty"]) === true){
-(c_8613["forceUpdate"])();
+var c_8488 = (a[i]);
+if((c_8488["cljsIsDirty"]) === true){
+(c_8488["forceUpdate"])();
 } else {
 }
 
-var G__8614 = (i + (1));
-i = G__8614;
+var G__8489 = (i + (1));
+i = G__8489;
 continue;
 } else {
 return null;
@@ -84,11 +84,11 @@ var n__4695__auto__ = fs.length;
 var i = (0);
 while(true){
 if((i < n__4695__auto__)){
-var fexpr__8597_8615 = (fs[i]);
-(fexpr__8597_8615.cljs$core$IFn$_invoke$arity$0 ? fexpr__8597_8615.cljs$core$IFn$_invoke$arity$0() : fexpr__8597_8615.call(null));
+var fexpr__8455_8490 = (fs[i]);
+(fexpr__8455_8490.cljs$core$IFn$_invoke$arity$0 ? fexpr__8455_8490.cljs$core$IFn$_invoke$arity$0() : fexpr__8455_8490.call(null));
 
-var G__8616 = (i + (1));
-i = G__8616;
+var G__8491 = (i + (1));
+i = G__8491;
 continue;
 } else {
 return null;
@@ -118,10 +118,10 @@ return null;
 } else {
 (self__.scheduled_QMARK_ = true);
 
-var G__8599 = (function (){
+var G__8458 = (function (){
 return this$.run_queues();
 });
-return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__8599) : reagent.impl.batching.next_tick.call(null,G__8599));
+return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__8458) : reagent.impl.batching.next_tick.call(null,G__8458));
 }
 }));
 
@@ -132,13 +132,13 @@ this$.run_funs("beforeFlush");
 
 reagent.impl.batching.ratom_flush();
 
-var temp__5757__auto___8618 = (this$["componentQueue"]);
-if((temp__5757__auto___8618 == null)){
+var temp__5757__auto___8502 = (this$["componentQueue"]);
+if((temp__5757__auto___8502 == null)){
 } else {
-var cs_8619 = temp__5757__auto___8618;
+var cs_8503 = temp__5757__auto___8502;
 (this$["componentQueue"] = null);
 
-reagent.impl.batching.run_queue(cs_8619);
+reagent.impl.batching.run_queue(cs_8503);
 }
 
 return this$.flush_after_render();

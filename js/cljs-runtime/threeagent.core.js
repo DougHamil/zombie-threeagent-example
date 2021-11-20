@@ -15,8 +15,8 @@ threeagent.core.track = reagent.ratom.track;
  *   
  */
 threeagent.core.render = (function threeagent$core$render(var_args){
-var G__10440 = arguments.length;
-switch (G__10440) {
+var G__10306 = arguments.length;
+switch (G__10306) {
 case 2:
 return threeagent.core.render.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

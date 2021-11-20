@@ -23,14 +23,14 @@ var ___$2 = this;
 return null;
 }));
 
-(zombie.scene.system.attachment.AttachmentSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,_id,obj,p__13070){
+(zombie.scene.system.attachment.AttachmentSystem.prototype.threeagent$system$ISystem$on_entity_added$arity$5 = (function (_,___$1,_id,obj,p__13058){
 var self__ = this;
-var map__13071 = p__13070;
-var map__13071__$1 = cljs.core.__destructure_map(map__13071);
-var path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13071__$1,new cljs.core.Keyword(null,"path","path",-188191168));
-var object = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13071__$1,new cljs.core.Keyword(null,"object","object",1474613949));
-var visible_signal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13071__$1,new cljs.core.Keyword(null,"visible-signal","visible-signal",1979539633));
-var hidden_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13071__$1,new cljs.core.Keyword(null,"hidden?","hidden?",1339691380));
+var map__13063 = p__13058;
+var map__13063__$1 = cljs.core.__destructure_map(map__13063);
+var path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13063__$1,new cljs.core.Keyword(null,"path","path",-188191168));
+var object = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13063__$1,new cljs.core.Keyword(null,"object","object",1474613949));
+var visible_signal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13063__$1,new cljs.core.Keyword(null,"visible-signal","visible-signal",1979539633));
+var hidden_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13063__$1,new cljs.core.Keyword(null,"hidden?","hidden?",1339691380));
 var ___$2 = this;
 var new_parent_13077 = zombie.util.threejs.get_in_object(obj,path);
 new_parent_13077.add(object);
@@ -45,8 +45,8 @@ if(cljs.core.truth_(temp__5753__auto__)){
 var vec__13072 = temp__5753__auto__;
 var entity_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13072,(0),null);
 var event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13072,(1),null);
-return zombie.util.messaging.on(self__.bus,entity_id,event,(function (p1__13069_SHARP_){
-return (object.visible = p1__13069_SHARP_);
+return zombie.util.messaging.on(self__.bus,entity_id,event,(function (p1__13057_SHARP_){
+return (object.visible = p1__13057_SHARP_);
 }));
 } else {
 return null;

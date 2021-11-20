@@ -1,11 +1,11 @@
 goog.provide('zombie.scene.system.weapon');
 zombie.scene.system.weapon._STAR_next_id_STAR_ = (0);
-zombie.scene.system.weapon._semi_auto_entry_fire = (function zombie$scene$system$weapon$_semi_auto_entry_fire(p__13206,_evt){
-var map__13211 = p__13206;
-var map__13211__$1 = cljs.core.__destructure_map(map__13211);
-var bus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"bus","bus",-1090873603));
-var local_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"local-state","local-state",-282143524));
-var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13211__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
+zombie.scene.system.weapon._semi_auto_entry_fire = (function zombie$scene$system$weapon$_semi_auto_entry_fire(p__13205,_evt){
+var map__13206 = p__13205;
+var map__13206__$1 = cljs.core.__destructure_map(map__13206);
+var bus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13206__$1,new cljs.core.Keyword(null,"bus","bus",-1090873603));
+var local_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13206__$1,new cljs.core.Keyword(null,"local-state","local-state",-282143524));
+var entity_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13206__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 return (zombie.scene.system.weapon.fire_weapon_BANG_.cljs$core$IFn$_invoke$arity$3 ? zombie.scene.system.weapon.fire_weapon_BANG_.cljs$core$IFn$_invoke$arity$3(bus,local_state,entity_id) : zombie.scene.system.weapon.fire_weapon_BANG_.call(null,bus,local_state,entity_id));
 });
 zombie.scene.system.weapon.semi_auto_fsm = (function zombie$scene$system$weapon$semi_auto_fsm(firing_rate){
@@ -39,13 +39,13 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(zombie.state.databases.rays,c
 } else {
 }
 
-var seq__13251 = cljs.core.seq(hits);
-var chunk__13252 = null;
-var count__13253 = (0);
-var i__13254 = (0);
+var seq__13262 = cljs.core.seq(hits);
+var chunk__13263 = null;
+var count__13264 = (0);
+var i__13265 = (0);
 while(true){
-if((i__13254 < count__13253)){
-var map__13276 = chunk__13252.cljs$core$IIndexed$_nth$arity$2(null,i__13254);
+if((i__13265 < count__13264)){
+var map__13276 = chunk__13263.cljs$core$IIndexed$_nth$arity$2(null,i__13265);
 var map__13276__$1 = cljs.core.__destructure_map(map__13276);
 var enemy_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13276__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 var normal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13276__$1,new cljs.core.Keyword(null,"hit-normal","hit-normal",929947402));
@@ -63,32 +63,32 @@ zombie.scene.system.weapon.spawn_particles_BANG_(bus,new cljs.core.Keyword(null,
 }
 
 
-var G__13286 = seq__13251;
-var G__13287 = chunk__13252;
-var G__13288 = count__13253;
-var G__13289 = (i__13254 + (1));
-seq__13251 = G__13286;
-chunk__13252 = G__13287;
-count__13253 = G__13288;
-i__13254 = G__13289;
+var G__13286 = seq__13262;
+var G__13287 = chunk__13263;
+var G__13288 = count__13264;
+var G__13289 = (i__13265 + (1));
+seq__13262 = G__13286;
+chunk__13263 = G__13287;
+count__13264 = G__13288;
+i__13265 = G__13289;
 continue;
 } else {
-var temp__5753__auto__ = cljs.core.seq(seq__13251);
+var temp__5753__auto__ = cljs.core.seq(seq__13262);
 if(temp__5753__auto__){
-var seq__13251__$1 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__13251__$1)){
-var c__4638__auto__ = cljs.core.chunk_first(seq__13251__$1);
-var G__13290 = cljs.core.chunk_rest(seq__13251__$1);
+var seq__13262__$1 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__13262__$1)){
+var c__4638__auto__ = cljs.core.chunk_first(seq__13262__$1);
+var G__13290 = cljs.core.chunk_rest(seq__13262__$1);
 var G__13291 = c__4638__auto__;
 var G__13292 = cljs.core.count(c__4638__auto__);
 var G__13293 = (0);
-seq__13251 = G__13290;
-chunk__13252 = G__13291;
-count__13253 = G__13292;
-i__13254 = G__13293;
+seq__13262 = G__13290;
+chunk__13263 = G__13291;
+count__13264 = G__13292;
+i__13265 = G__13293;
 continue;
 } else {
-var map__13277 = cljs.core.first(seq__13251__$1);
+var map__13277 = cljs.core.first(seq__13262__$1);
 var map__13277__$1 = cljs.core.__destructure_map(map__13277);
 var enemy_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13277__$1,new cljs.core.Keyword(null,"entity-id","entity-id",1485898093));
 var normal = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__13277__$1,new cljs.core.Keyword(null,"hit-normal","hit-normal",929947402));
@@ -106,14 +106,14 @@ zombie.scene.system.weapon.spawn_particles_BANG_(bus,new cljs.core.Keyword(null,
 }
 
 
-var G__13294 = cljs.core.next(seq__13251__$1);
-var G__13295 = null;
-var G__13296 = (0);
-var G__13297 = (0);
-seq__13251 = G__13294;
-chunk__13252 = G__13295;
-count__13253 = G__13296;
-i__13254 = G__13297;
+var G__13296 = cljs.core.next(seq__13262__$1);
+var G__13297 = null;
+var G__13298 = (0);
+var G__13299 = (0);
+seq__13262 = G__13296;
+chunk__13263 = G__13297;
+count__13264 = G__13298;
+i__13265 = G__13299;
 continue;
 }
 } else {

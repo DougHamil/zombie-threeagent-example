@@ -5,7 +5,7 @@ goog.provide('statecharts.service');
  */
 statecharts.service.IService = function(){};
 
-var statecharts$service$IService$start$dyn_12793 = (function (this$){
+var statecharts$service$IService$start$dyn_12803 = (function (this$){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.service.start[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -23,11 +23,11 @@ statecharts.service.start = (function statecharts$service$start(this$){
 if((((!((this$ == null)))) && ((!((this$.statecharts$service$IService$start$arity$1 == null)))))){
 return this$.statecharts$service$IService$start$arity$1(this$);
 } else {
-return statecharts$service$IService$start$dyn_12793(this$);
+return statecharts$service$IService$start$dyn_12803(this$);
 }
 });
 
-var statecharts$service$IService$send$dyn_12794 = (function (this$,event){
+var statecharts$service$IService$send$dyn_12804 = (function (this$,event){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.service.send[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -45,11 +45,11 @@ statecharts.service.send = (function statecharts$service$send(this$,event){
 if((((!((this$ == null)))) && ((!((this$.statecharts$service$IService$send$arity$2 == null)))))){
 return this$.statecharts$service$IService$send$arity$2(this$,event);
 } else {
-return statecharts$service$IService$send$dyn_12794(this$,event);
+return statecharts$service$IService$send$dyn_12804(this$,event);
 }
 });
 
-var statecharts$service$IService$add_listener$dyn_12796 = (function (this$,id,listener){
+var statecharts$service$IService$add_listener$dyn_12805 = (function (this$,id,listener){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.service.add_listener[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -67,11 +67,11 @@ statecharts.service.add_listener = (function statecharts$service$add_listener(th
 if((((!((this$ == null)))) && ((!((this$.statecharts$service$IService$add_listener$arity$3 == null)))))){
 return this$.statecharts$service$IService$add_listener$arity$3(this$,id,listener);
 } else {
-return statecharts$service$IService$add_listener$dyn_12796(this$,id,listener);
+return statecharts$service$IService$add_listener$dyn_12805(this$,id,listener);
 }
 });
 
-var statecharts$service$IService$reload$dyn_12799 = (function (this$,fsm){
+var statecharts$service$IService$reload$dyn_12807 = (function (this$,fsm){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.service.reload[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -89,7 +89,7 @@ statecharts.service.reload = (function statecharts$service$reload(this$,fsm){
 if((((!((this$ == null)))) && ((!((this$.statecharts$service$IService$reload$arity$2 == null)))))){
 return this$.statecharts$service$IService$reload$arity$2(this$,fsm);
 } else {
-return statecharts$service$IService$reload$dyn_12799(this$,fsm);
+return statecharts$service$IService$reload$dyn_12807(this$,fsm);
 }
 });
 
@@ -172,8 +172,8 @@ statecharts.service.default_opts = (function statecharts$service$default_opts(){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"clock","clock",-894301127),statecharts.clock.wall_clock()], null);
 });
 statecharts.service.service = (function statecharts$service$service(var_args){
-var G__12789 = arguments.length;
-switch (G__12789) {
+var G__12794 = arguments.length;
+switch (G__12794) {
 case 1:
 return statecharts.service.service.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -193,17 +193,17 @@ return statecharts.service.service.cljs$core$IFn$_invoke$arity$2(fsm,null);
 }));
 
 (statecharts.service.service.cljs$core$IFn$_invoke$arity$2 = (function (fsm,opts){
-var map__12790 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([statecharts.service.default_opts(),opts], 0));
-var map__12790__$1 = cljs.core.__destructure_map(map__12790);
-var clock = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12790__$1,new cljs.core.Keyword(null,"clock","clock",-894301127));
+var map__12798 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([statecharts.service.default_opts(),opts], 0));
+var map__12798__$1 = cljs.core.__destructure_map(map__12798);
+var clock = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__12798__$1,new cljs.core.Keyword(null,"clock","clock",-894301127));
 return (new statecharts.service.Service(fsm,cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null),false,clock));
 }));
 
 (statecharts.service.service.cljs$lang$maxFixedArity = 2);
 
 statecharts.service.attach_fsm_scheduler = (function statecharts$service$attach_fsm_scheduler(service,fsm){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(fsm,new cljs.core.Keyword(null,"scheduler","scheduler",-1882870208),statecharts.delayed.make_scheduler((function (p1__12791_SHARP_){
-return statecharts.service.send(service,p1__12791_SHARP_);
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(fsm,new cljs.core.Keyword(null,"scheduler","scheduler",-1882870208),statecharts.delayed.make_scheduler((function (p1__12799_SHARP_){
+return statecharts.service.send(service,p1__12799_SHARP_);
 }),service.clock));
 });
 

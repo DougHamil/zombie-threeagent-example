@@ -22,10 +22,10 @@ return clojure.string.includes_QMARK_(name,k);
 
 return clip;
 });
-zombie.assets.animation.kenney_mute_half = (function zombie$assets$animation$kenney_mute_half(_key,anims,p__10500){
-var map__10501 = p__10500;
-var map__10501__$1 = cljs.core.__destructure_map(map__10501);
-var mute_layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10501__$1,new cljs.core.Keyword(null,"mute-layer","mute-layer",-1073710410));
+zombie.assets.animation.kenney_mute_half = (function zombie$assets$animation$kenney_mute_half(_key,anims,p__10502){
+var map__10503 = p__10502;
+var map__10503__$1 = cljs.core.__destructure_map(map__10503);
+var mute_layer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10503__$1,new cljs.core.Keyword(null,"mute-layer","mute-layer",-1073710410));
 if(cljs.core.truth_(mute_layer)){
 return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zombie.assets.animation.mute_tracks_BANG_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(zombie.assets.animation.kenney_roots,mute_layer)),anims));
 } else {
@@ -36,11 +36,11 @@ zombie.assets.animation.middleware = (function zombie$assets$animation$middlewar
 var map__10506 = p__10505;
 var map__10506__$1 = cljs.core.__destructure_map(map__10506);
 var additive_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__10506__$1,new cljs.core.Keyword(null,"additive?","additive?",1204187791));
-return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__10502_SHARP_){
+return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__10504_SHARP_){
 if(cljs.core.truth_(additive_QMARK_)){
-return module$node_modules$three$build$three_module.AnimationUtils.makeClipAdditive(p1__10502_SHARP_);
+return module$node_modules$three$build$three_module.AnimationUtils.makeClipAdditive(p1__10504_SHARP_);
 } else {
-return p1__10502_SHARP_;
+return p1__10504_SHARP_;
 }
 }),anims);
 });

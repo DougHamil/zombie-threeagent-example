@@ -1,7 +1,8 @@
 goog.provide('zombie.util.asset_loader');
 zombie.util.asset_loader.join_path = (function zombie$util$asset_loader$join_path(base,addition){
-var addition__$1 = ((clojure.string.starts_with_QMARK_(addition,"/"))?addition:["/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(addition)].join(''));
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),cljs.core.str.cljs$core$IFn$_invoke$arity$1(addition__$1)].join('');
+var base__$1 = ((clojure.string.ends_with_QMARK_(base,"/"))?clojure.string.join.cljs$core$IFn$_invoke$arity$2("",cljs.core.drop_last.cljs$core$IFn$_invoke$arity$1(base)):base);
+var addition__$1 = ((clojure.string.starts_with_QMARK_(addition,"/"))?clojure.string.join.cljs$core$IFn$_invoke$arity$2("",cljs.core.rest(addition)):addition);
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(base__$1),"/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(addition__$1)].join('');
 });
 zombie.util.asset_loader.leaf_QMARK_ = (function zombie$util$asset_loader$leaf_QMARK_(v){
 return ((cljs.core.vector_QMARK_(v)) && ((cljs.core.second(v) instanceof cljs.core.Keyword)));
@@ -260,7 +261,7 @@ return p;
 }
 });
 zombie.util.asset_loader.load_BANG_ = (function zombie$util$asset_loader$load_BANG_(database,tree){
-var nodes = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,zombie.util.asset_loader.validate_BANG_(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zombie.util.asset_loader.visit,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),"",new cljs.core.Keyword(null,"middleware","middleware",1462115504),cljs.core.PersistentVector.EMPTY], null)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([tree], 0))));
+var nodes = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,zombie.util.asset_loader.validate_BANG_(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zombie.util.asset_loader.visit,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),"./",new cljs.core.Keyword(null,"middleware","middleware",1462115504),cljs.core.PersistentVector.EMPTY], null)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([tree], 0))));
 var promises = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 return Promise.all(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$4(zombie.util.asset_loader.get_promise,nodes,promises,database),cljs.core.vals(nodes)));
 });

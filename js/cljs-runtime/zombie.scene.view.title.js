@@ -4,9 +4,9 @@ zombie.scene.view.title.lights = (function zombie$scene$view$title$lights(){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ambient-light","ambient-light",1637901620),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"intensity","intensity",1142770863),0.05], null)], null)], null);
 });
 zombie.scene.view.title.camera = (function zombie$scene$view$title$camera(){
-var aspect = cljs.core.deref((function (){var G__10741 = zombie.state.databases.scene;
-var G__10742 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"screen-aspect-ratio","screen-aspect-ratio",-1045134019)], null);
-return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10741,G__10742) : threeagent.core.cursor.call(null,G__10741,G__10742));
+var aspect = cljs.core.deref((function (){var G__10760 = zombie.state.databases.scene;
+var G__10761 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"screen-aspect-ratio","screen-aspect-ratio",-1045134019)], null);
+return (threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2 ? threeagent.core.cursor.cljs$core$IFn$_invoke$arity$2(G__10760,G__10761) : threeagent.core.cursor.call(null,G__10760,G__10761));
 })());
 var light_target = (new module$node_modules$three$build$three_module.Object3D());
 var height = (8);
@@ -14,37 +14,37 @@ var width = (height * aspect);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"orthographic-camera","orthographic-camera",-79663393),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"bottom","bottom",-1550509018),new cljs.core.Keyword(null,"top","top",-1856271961),new cljs.core.Keyword(null,"id","id",-1388402092),new cljs.core.Keyword(null,"camera","camera",-1190348585),new cljs.core.Keyword(null,"right","right",-452581833),new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.Keyword(null,"near","near",-1077668328),new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.Keyword(null,"far","far",85807546),new cljs.core.Keyword(null,"entity","entity",-450970276),new cljs.core.Keyword(null,"left","left",-399115937)],[(- height),height,"title-camera",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"look-at-target","look-at-target",1083230409),"focus"], null),width,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(4),(10)], null),0.001,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"pick-camera","pick-camera",1317801101),true], null),(1000),cljs.core.PersistentArrayMap.EMPTY,(- width)]),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(10),(20)], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [zombie.scene.view.title.lights], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(10),(0),(-50)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"instance","instance",-2121349050),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"object","object",1474613949),light_target], null)], null)], null)], null)], null);
 });
 zombie.scene.view.title.ground = (function zombie$scene$view$title$ground(){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(-20),(0),(20)], null)], null),(function (){var iter__4611__auto__ = (function zombie$scene$view$title$ground_$_iter__10745(s__10746){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"object","object",1474613949),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(-20),(0),(20)], null)], null),(function (){var iter__4611__auto__ = (function zombie$scene$view$title$ground_$_iter__10762(s__10763){
 return (new cljs.core.LazySeq(null,(function (){
-var s__10746__$1 = s__10746;
+var s__10763__$1 = s__10763;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__10746__$1);
+var temp__5753__auto__ = cljs.core.seq(s__10763__$1);
 if(temp__5753__auto__){
 var xs__6308__auto__ = temp__5753__auto__;
 var x = cljs.core.first(xs__6308__auto__);
-var iterys__4607__auto__ = ((function (s__10746__$1,x,xs__6308__auto__,temp__5753__auto__){
-return (function zombie$scene$view$title$ground_$_iter__10745_$_iter__10747(s__10748){
-return (new cljs.core.LazySeq(null,((function (s__10746__$1,x,xs__6308__auto__,temp__5753__auto__){
+var iterys__4607__auto__ = ((function (s__10763__$1,x,xs__6308__auto__,temp__5753__auto__){
+return (function zombie$scene$view$title$ground_$_iter__10762_$_iter__10764(s__10765){
+return (new cljs.core.LazySeq(null,((function (s__10763__$1,x,xs__6308__auto__,temp__5753__auto__){
 return (function (){
-var s__10748__$1 = s__10748;
+var s__10765__$1 = s__10765;
 while(true){
-var temp__5753__auto____$1 = cljs.core.seq(s__10748__$1);
+var temp__5753__auto____$1 = cljs.core.seq(s__10765__$1);
 if(temp__5753__auto____$1){
-var s__10748__$2 = temp__5753__auto____$1;
-if(cljs.core.chunked_seq_QMARK_(s__10748__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__10748__$2);
+var s__10765__$2 = temp__5753__auto____$1;
+if(cljs.core.chunked_seq_QMARK_(s__10765__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__10765__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__10750 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__10749 = (0);
+var b__10767 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__10766 = (0);
 while(true){
-if((i__10749 < size__4610__auto__)){
-var y = cljs.core._nth(c__4609__auto__,i__10749);
+if((i__10766 < size__4610__auto__)){
+var y = cljs.core._nth(c__4609__auto__,i__10766);
 var px = (x * 10.0);
 var py = ((- y) * 10.0);
-cljs.core.chunk_append(b__10750,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [px,(0),py], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [10.0,10.0,10.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"material","material",460118677),new cljs.core.Keyword("material","grass","material/grass",1459226894).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(zombie.state.databases.assets))], null)], null));
+cljs.core.chunk_append(b__10767,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [px,(0),py], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [10.0,10.0,10.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"material","material",460118677),new cljs.core.Keyword("material","grass","material/grass",1459226894).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(zombie.state.databases.assets))], null)], null));
 
-var G__10768 = (i__10749 + (1));
-i__10749 = G__10768;
+var G__10771 = (i__10766 + (1));
+i__10766 = G__10771;
 continue;
 } else {
 return true;
@@ -52,31 +52,31 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__10750),zombie$scene$view$title$ground_$_iter__10745_$_iter__10747(cljs.core.chunk_rest(s__10748__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__10767),zombie$scene$view$title$ground_$_iter__10762_$_iter__10764(cljs.core.chunk_rest(s__10765__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__10750),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__10767),null);
 }
 } else {
-var y = cljs.core.first(s__10748__$2);
+var y = cljs.core.first(s__10765__$2);
 var px = (x * 10.0);
 var py = ((- y) * 10.0);
-return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [px,(0),py], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [10.0,10.0,10.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"material","material",460118677),new cljs.core.Keyword("material","grass","material/grass",1459226894).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(zombie.state.databases.assets))], null)], null),zombie$scene$view$title$ground_$_iter__10745_$_iter__10747(cljs.core.rest(s__10748__$2)));
+return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"plane","plane",-223595224),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"position","position",-2011731912),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [px,(0),py], null),new cljs.core.Keyword(null,"scale","scale",-230427353),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [10.0,10.0,10.0], null),new cljs.core.Keyword(null,"rotation","rotation",-1728051644),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- zombie.util.math.pi2),(0),(0)], null),new cljs.core.Keyword(null,"receive-shadow","receive-shadow",-789712390),true,new cljs.core.Keyword(null,"material","material",460118677),new cljs.core.Keyword("material","grass","material/grass",1459226894).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(zombie.state.databases.assets))], null)], null),zombie$scene$view$title$ground_$_iter__10762_$_iter__10764(cljs.core.rest(s__10765__$2)));
 }
 } else {
 return null;
 }
 break;
 }
-});})(s__10746__$1,x,xs__6308__auto__,temp__5753__auto__))
+});})(s__10763__$1,x,xs__6308__auto__,temp__5753__auto__))
 ,null,null));
-});})(s__10746__$1,x,xs__6308__auto__,temp__5753__auto__))
+});})(s__10763__$1,x,xs__6308__auto__,temp__5753__auto__))
 ;
 var fs__4608__auto__ = cljs.core.seq(iterys__4607__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1((5))));
 if(fs__4608__auto__){
-return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(fs__4608__auto__,zombie$scene$view$title$ground_$_iter__10745(cljs.core.rest(s__10746__$1)));
+return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(fs__4608__auto__,zombie$scene$view$title$ground_$_iter__10762(cljs.core.rest(s__10763__$1)));
 } else {
-var G__10769 = cljs.core.rest(s__10746__$1);
-s__10746__$1 = G__10769;
+var G__10772 = cljs.core.rest(s__10763__$1);
+s__10763__$1 = G__10772;
 continue;
 }
 } else {

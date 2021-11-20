@@ -5,7 +5,7 @@ goog.provide('statecharts.clock');
  */
 statecharts.clock.Clock = function(){};
 
-var statecharts$clock$Clock$setTimeout$dyn_12529 = (function (this$,f,delay){
+var statecharts$clock$Clock$setTimeout$dyn_12499 = (function (this$,f,delay){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.clock.setTimeout[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -23,11 +23,11 @@ statecharts.clock.setTimeout = (function statecharts$clock$setTimeout(this$,f,de
 if((((!((this$ == null)))) && ((!((this$.statecharts$clock$Clock$setTimeout$arity$3 == null)))))){
 return this$.statecharts$clock$Clock$setTimeout$arity$3(this$,f,delay);
 } else {
-return statecharts$clock$Clock$setTimeout$dyn_12529(this$,f,delay);
+return statecharts$clock$Clock$setTimeout$dyn_12499(this$,f,delay);
 }
 });
 
-var statecharts$clock$Clock$clearTimeout$dyn_12530 = (function (this$,id){
+var statecharts$clock$Clock$clearTimeout$dyn_12500 = (function (this$,id){
 var x__4509__auto__ = (((this$ == null))?null:this$);
 var m__4510__auto__ = (statecharts.clock.clearTimeout[goog.typeOf(x__4509__auto__)]);
 if((!((m__4510__auto__ == null)))){
@@ -45,7 +45,7 @@ statecharts.clock.clearTimeout = (function statecharts$clock$clearTimeout(this$,
 if((((!((this$ == null)))) && ((!((this$.statecharts$clock$Clock$clearTimeout$arity$2 == null)))))){
 return this$.statecharts$clock$Clock$clearTimeout$arity$2(this$,id);
 } else {
-return statecharts$clock$Clock$clearTimeout$dyn_12530(this$,id);
+return statecharts$clock$Clock$clearTimeout$dyn_12500(this$,id);
 }
 });
 
